@@ -4,9 +4,9 @@ date = 2024-10-08T21:05:22+11:00
 draft = true
 +++
 
-<p class="text-lg font-bold ">owasp top 10</p>
+## owasp top 10 list
 
-here is the list of the top 10 vulnerabilities of websites according to owasp
+below are the top 10 vulnerabilities of websites according to owasp
 
 <ul class="pb-4">
     <li><a href="/owasp-top10-list/broken-access-control"> > 01. broken access control</a></li>

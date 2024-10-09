@@ -98,7 +98,7 @@
 }
 
 .markdown {
-  color: #333;
+  color: #fefce8;
 }
 
 .markdown > h1 {
@@ -108,7 +108,6 @@
 
 .markdown > h2 {
   font-size: 18px;
-  border-bottom: 2px solid #333;
   margin-bottom: 12px;
   font-weight: bold;
 }
@@ -119,11 +118,11 @@
 
 .markdown > p {
   margin-bottom: 8px;
-  color: black;
+  color: #fefce8;
 }
 
 a {
-  color: blue;
+  color: #fefce8;
 }
 
 a:hover {

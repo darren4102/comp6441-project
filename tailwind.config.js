@@ -4,6 +4,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: { titlebar: "url(/images/titlebar.png)" },
+      colors: { pastel_red: "#ff6961" },
     },
   },
   plugins: [],
