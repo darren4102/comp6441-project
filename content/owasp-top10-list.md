@@ -4,7 +4,7 @@ date = 2024-10-08T21:05:22+11:00
 draft = true
 +++
 
-## owasp top 10 list
+# owasp top 10 list
 
 below are the top 10 vulnerabilities of websites according to owasp
 
