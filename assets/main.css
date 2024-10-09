@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 #header {
-  animation: animate-background linear 10s infinite;
+  height: 36px;
 }
 
 @keyframes animate-background {
@@ -48,8 +48,6 @@
   padding-left: 4px;
   padding-bottom: 4px;
   margin-left: 4px;
-  border-left: 3px outset black;
-  border-bottom: 3px outset black;
 }
 
 .content-wrapper {
