@@ -126,17 +126,17 @@ a {
 }
 
 a:hover {
-  color: white;
-  background-color: blue;
+  color: #fefce8;
+  background-color: grey;
 }
 
 h3 > a {
-  color: blue;
+  color: grey;
 }
 
 h3 > a:hover {
-  color: white;
-  background-color: blue;
+  color: #fefce8;
+  background-color: grey;
 }
 
 .posts-list-animated {
@@ -149,7 +149,7 @@ h3 > a:hover {
 
 .posts-list-animated > li {
   height: 100px;
-  background-color: blue;
+  background-color: grey;
   animation: moving 20s infinite linear;
 }
 

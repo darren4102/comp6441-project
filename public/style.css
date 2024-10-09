@@ -563,11 +563,6 @@ video {
   margin-right: 1rem;
 }
 
-.my-4 {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-
 .my-2 {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
@@ -579,14 +574,6 @@ video {
 
 .mt-16 {
   margin-top: 4rem;
-}
-
-.mb-4 {
-  margin-bottom: 1rem;
-}
-
-.mt-2 {
-  margin-top: 0.5rem;
 }
 
 .block {
@@ -831,17 +818,17 @@ a {
 }
 
 a:hover {
-  color: white;
-  background-color: blue;
+  color: #fefce8;
+  background-color: grey;
 }
 
 h3 > a {
-  color: blue;
+  color: grey;
 }
 
 h3 > a:hover {
-  color: white;
-  background-color: blue;
+  color: #fefce8;
+  background-color: grey;
 }
 
 .posts-list-animated {
@@ -854,7 +841,7 @@ h3 > a:hover {
 
 .posts-list-animated > li {
   height: 100px;
-  background-color: blue;
+  background-color: grey;
   animation: moving 20s infinite linear;
 }
 
