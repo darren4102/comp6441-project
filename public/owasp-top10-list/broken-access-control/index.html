@@ -5,7 +5,7 @@
   
   <link rel="stylesheet" href="/style.css" />
    
-  <title>(=✪ᆽ✪=) darrens site | About</title>
+  <title>(=✪ᆽ✪=) darrens site | broken-access-control</title>
 </head>
 <body
     class="bg-[url('/images/stars.gif')] max-w-[100vw] overflow-x-hidden font-mono text-xs text-yellow-50"
@@ -19,7 +19,7 @@
 </header>
 <div class="flex flex-col lg:flex-row max-w-4xl mx-4 lg:m-auto relative">
       <nav class="bg-neutral-800/50 p-4 w-full lg:w-auto lg:max-w-xs max-h-full">
-  <ul>
+  <ul class="list-none ml-0">
      
     <li>
       <a href="http://localhost:1313/">~/home</a>
@@ -30,7 +30,7 @@
     </li>
      
     <li>
-      <a href="/about/">~/about-me</a>
+      <a href="/about-me/">~/about-me</a>
     </li>
      
     <li>
@@ -42,10 +42,19 @@
 
 
 <main
-  class="w-full h-full bg-neutral-800/50 p-4 overflow-x-auto markdown text-yellow-50"
+  class="w-full h-full min-h-36 bg-neutral-800/50 p-4 overflow-x-auto markdown text-yellow-50"
 >
-  
-  <p>
+  <h1 id="01-broken-access-control">01. broken access control</h1>
+<h2 id="what-is-it">what is it?</h2>
+<p>before we talk about what “broken” access control is, we need to understand what access control is itself. access control is the restrictions put upon a user that determines what actions they can do and resources they can access</p>
+<p>for web applications, action control involves:</p>
+<ul>
+<li><strong>authentication</strong>: checking if the user is who they say they are</li>
+<li><strong>session management</strong>: retaining the user&rsquo;s authenticated state across their multiple interactions with a website</li>
+<li><strong>access control</strong>: verifying whether users can and are allowed do what they are trying to do</li>
+</ul>
+
+  <p class="pt-4">
     <a href="/"> >> home</a>
   </p>
 </main>

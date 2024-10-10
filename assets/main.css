@@ -165,3 +165,14 @@ h3 > a:hover {
     transform: translate(-900px, 0);
   }
 }
+
+ul {
+  margin-left: 30px;
+  padding-bottom: 16px;
+  list-style-type: "- ";
+}
+
+ol {
+  margin-left: 30px;
+  margin-bottom: 16px;
+}

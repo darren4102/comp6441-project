@@ -6,8 +6,15 @@
     <description>Recent content on (=✪ᆽ✪=) darrens site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 09 Oct 2024 22:21:57 +1100</lastBuildDate>
+    <lastBuildDate>Thu, 10 Oct 2024 11:16:31 +1100</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>broken-access-control</title>
+      <link>http://localhost:1313/owasp-top10-list/broken-access-control/</link>
+      <pubDate>Thu, 10 Oct 2024 11:16:31 +1100</pubDate>
+      <guid>http://localhost:1313/owasp-top10-list/broken-access-control/</guid>
+      <description>&lt;h1 id=&#34;01-broken-access-control&#34;&gt;01. broken access control&lt;/h1&gt;&#xA;&lt;h2 id=&#34;what-is-it&#34;&gt;what is it?&lt;/h2&gt;&#xA;&lt;p&gt;before we talk about what “broken” access control is, we need to understand what access control is itself. access control is the restrictions put upon a user that determines what actions they can do and resources they can access&lt;/p&gt;&#xA;&lt;p&gt;for web applications, action control involves:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;authentication&lt;/strong&gt;: checking if the user is who they say they are&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;session management&lt;/strong&gt;: retaining the user&amp;rsquo;s authenticated state across their multiple interactions with a website&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;access control&lt;/strong&gt;: verifying whether users can and are allowed do what they are trying to do&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>about-me</title>
       <link>http://localhost:1313/about-me/</link>
@@ -20,14 +27,14 @@
       <link>http://localhost:1313/owasp-top10-list/</link>
       <pubDate>Tue, 08 Oct 2024 21:05:22 +1100</pubDate>
       <guid>http://localhost:1313/owasp-top10-list/</guid>
-      <description>&lt;h1 id=&#34;owasp-top-10-list&#34;&gt;owasp top 10 list&lt;/h1&gt;&#xA;&lt;p&gt;below are the top 10 vulnerabilities of websites according to owasp&lt;/p&gt;&#xA;&lt;ul class=&#34;pb-4&#34;&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;http://localhost:1313/owasp-top10-list/broken-access-control&#34;&gt; &gt; 01. broken access control&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;http://localhost:1313/owasp-top10-list/cryptographic-failures&#34;&gt; &gt; 02. cryptographic failures&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;http://localhost:1313/owasp-top10-list/injection&#34;&gt; &gt; 03. injection&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;http://localhost:1313/owasp-top10-list/insecure-design&#34;&gt; &gt; 04. insecure design&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;http://localhost:1313/owasp-top10-list/security-misconfiguration&#34;&gt; &gt; 05. security misconfiguration&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;http://localhost:1313/owasp-top10-list/vulnerable-and-outdated-components&#34;&gt; &gt; 06. vulnerable and outdated components&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;http://localhost:1313/owasp-top10-list/identification-and-authentication-failures&#34;&gt; &gt; 07. identification and authentication failures&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;http://localhost:1313/owasp-top10-list/software-and-data-integrity-failures&#34;&gt; &gt; 08. software and data integrity failures&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;http://localhost:1313/owasp-top10-list/security-logging-and-monitoring-failures&#34;&gt; &gt; 09. security logging and monitoring failures&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;http://localhost:1313/owasp-top10-list/server-side-request-forgery&#34;&gt; &gt; 10. server-side request forgery&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;(⌐▀͡ ̯ʖ▀)&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;owasp-top-10-list&#34;&gt;owasp top 10 list&lt;/h1&gt;&#xA;&lt;p&gt;below are the top 10 most common vulnerabilities online according to owasp. click on any to view more about them!&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/owasp-top10-list/broken-access-control&#34;&gt;&amp;gt; 01. broken access control&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/owasp-top10-list/cryptographic-failures&#34;&gt;&amp;gt; 02. cryptographic failures&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/owasp-top10-list/injection&#34;&gt;&amp;gt; 03. injection&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/owasp-top10-list/insecure-design&#34;&gt;&amp;gt; 04. insecure design&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/owasp-top10-list/security-misconfiguration&#34;&gt;&amp;gt; 05. security misconfiguration&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/owasp-top10-list/vulnerable-and-outdated-components&#34;&gt;&amp;gt; 06. vulnerable and outdated components&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/owasp-top10-list/identification-and-authentication-failures&#34;&gt;&amp;gt; 07. identification and authentication failures&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/owasp-top10-list/software-and-data-integrity-failures&#34;&gt;&amp;gt; 08. software and data integrity failures&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/owasp-top10-list/security-logging-and-monitoring-failures&#34;&gt;&amp;gt; 09. security logging and monitoring failures&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/owasp-top10-list/server-side-request-forgery&#34;&gt;&amp;gt; 10. server-side request forgery&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;(⌐▀͡ ̯ʖ▀)&lt;/p&gt;</description>
     </item>
     <item>
       <title>test</title>
       <link>http://localhost:1313/test/</link>
       <pubDate>Tue, 08 Oct 2024 19:22:30 +1100</pubDate>
       <guid>http://localhost:1313/test/</guid>
-      <description>&lt;h1 id=&#34;test&#34;&gt;test&lt;/h1&gt;&#xA;&lt;p&gt;this is a test site&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;title&#34;&gt;title&lt;/h1&gt;&#xA;&lt;h2 id=&#34;title-2&#34;&gt;title 2&lt;/h2&gt;&#xA;&lt;h3 id=&#34;title-3&#34;&gt;title 3&lt;/h3&gt;&#xA;&lt;p&gt;this is a test site&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
