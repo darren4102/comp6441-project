@@ -6,7 +6,9 @@ draft = true
 
 # owasp top 10 list
 
-below are the top 10 most common vulnerabilities online according to owasp. click on any to view more about them!
+below are the top 10 most common vulnerabilities online according to owasp as of 2021!
+
+click on any to view more about them (＾ ▽ ＾)
 
 1. [> 01. broken access control](/owasp-top10-list/broken-access-control)
 2. [> 02. cryptographic failures](/owasp-top10-list/cryptographic-failures)

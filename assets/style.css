@@ -589,6 +589,10 @@ video {
   display: flex;
 }
 
+.hidden {
+  display: none;
+}
+
 .h-full {
   height: 100%;
 }
@@ -879,6 +883,16 @@ h3 > a:hover {
 .markdown > ol {
   margin-left: 20px;
   margin-bottom: 16px;
+}
+
+.markdown > img {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 12px;
+  width: 75%;
+  height: auto;
 }
 
 @media (min-width: 1024px) {

@@ -75,6 +75,19 @@
 </li>
 </ul>
 <h2 id="how-do-we-prevent-it">how do we prevent it?</h2>
+<p>access control is effective only if it is performed server-side rather than on the user’s machine. this stops attackers from changing verification code and metadata. also the system should not rely on security through obscurity</p>
+<p>other ways to prevent include:</p>
+<ul>
+<li>disabling the ability for users to view the list of directories and hidden files of a website</li>
+<li>ensuring users can only work with their own data not anybody else’s</li>
+<li>logging and notifying admins on recurring failed access attempts</li>
+<li>making sure session ids are made invalid when a user logs out. if tokens are used, make them expire faster to minimise the window of attack</li>
+<li>limiting the the number of api requests to protect against attackers or bots</li>
+<li>denying access to private pages of a website by default to prevent elevation of privileges</li>
+</ul>
+<h2 id="example-attack">example attack</h2>
+<p>below is an attack exploiting &lsquo;idor&rsquo;. the attacker is able to change the id in the url to access someone else&rsquo;s account</p>
+<img src="/examples/owasp1.gif" alt="owasp1_example.gif"/>
 
   <p class="pt-4">
     <a href="/"> >> home</a>

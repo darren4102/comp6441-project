@@ -35,3 +35,20 @@ broken access control occurs when a website fails to maintain restrictions on wh
 - **_elevation of privilege:_** occurs when there are vulnerabilities in the system which allows a user with lower level privileges to perform actions that require higher level privileges. for instance, someone acting as a user without being logged in or someone acting as an admin despite only being a user
 
 ## how do we prevent it?
+
+access control is effective only if it is performed server-side rather than on the user’s machine. this stops attackers from changing verification code and metadata. also the system should not rely on security through obscurity
+
+other ways to prevent include:
+
+- disabling the ability for users to view the list of directories and hidden files of a website
+- ensuring users can only work with their own data not anybody else’s
+- logging and notifying admins on recurring failed access attempts
+- making sure session ids are made invalid when a user logs out. if tokens are used, make them expire faster to minimise the window of attack
+- limiting the the number of api requests to protect against attackers or bots
+- denying access to private pages of a website by default to prevent elevation of privileges
+
+## example attack
+
+below is an attack exploiting 'idor'. the attacker is able to change the id in the url to access someone else's account
+
+<img src="/examples/owasp1.gif" alt="owasp1_example.gif"/>
