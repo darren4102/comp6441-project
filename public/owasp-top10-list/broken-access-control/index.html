@@ -19,7 +19,7 @@
 </header>
 <div class="flex flex-col lg:flex-row max-w-4xl mx-4 lg:m-auto relative">
       <nav class="bg-neutral-800/50 p-4 w-full lg:w-auto lg:max-w-xs max-h-full">
-  <ul class="list-none ml-0">
+  <ul>
      
     <li>
       <a href="http://localhost:1313/">~/home</a>
@@ -46,13 +46,35 @@
 >
   <h1 id="01-broken-access-control">01. broken access control</h1>
 <h2 id="what-is-it">what is it?</h2>
-<p>before we talk about what “broken” access control is, we need to understand what access control is itself. access control is the restrictions put upon a user that determines what actions they can do and resources they can access</p>
+<p>before we talk about what <strong><em>“broken”</em></strong> access control is, we need to understand what access control is itself. access control is the restrictions put upon a user that determines what actions they can do and resources they can access</p>
 <p>for web applications, action control involves:</p>
 <ul>
-<li><strong>authentication</strong>: checking if the user is who they say they are</li>
-<li><strong>session management</strong>: retaining the user&rsquo;s authenticated state across their multiple interactions with a website</li>
-<li><strong>access control</strong>: verifying whether users can and are allowed do what they are trying to do</li>
+<li><strong><em>authentication</em></strong>: checking if the user is who they say they are</li>
+<li><strong><em>session management</em></strong>: retaining the user&rsquo;s authenticated state across their multiple interactions with a website</li>
+<li><strong><em>access control</em></strong>: verifying whether users can and are allowed do what they are trying to do</li>
 </ul>
+<p>with that, <strong><em>“broken”</em></strong> access control is when these restrictions are bypassed by the user. when this happens, it can give an attacker elevated privileges and lead to sensitive data such as many users’ personal information being leaked, modified or destroyed</p>
+<p>it is therefore important that necessary restrictions are properly implemented and that the principle of least principle is enforced to ensure that users are limited to what they are supposed to see and access</p>
+<h2 id="how-does-it-occur">how does it occur?</h2>
+<p>broken access control occurs when a website fails to maintain restrictions on what a user can do. these are due to vulnerabilities such as:</p>
+<ul>
+<li>
+<p><strong><em>the violation of the &lsquo;principle of least privilege&rsquo;:</em></strong> this vulnerability occurs when users within an organisation are given more permissions than what is necessary for their role. for example, a junior accountant has admin access to the company’s financial system despite their role only requiring them to make basic reports</p>
+</li>
+<li>
+<p><strong><em>insecure direct object references (idor):</em></strong> this happens if a user’s unique identifier is present in the url of a website when they are logged in. without proper authentication, attackers can change the id to someone else’s giving them access to their account</p>
+</li>
+<li>
+<p><strong><em>bypassing access control checks:</em></strong> similar to &lsquo;idor&rsquo;, this happens if proper authentication is not implemented such that users are able to access certain pages of a website they are not supposed to see. this allows an attacker to modify the url by adding the route to the page they want</p>
+</li>
+<li>
+<p><strong><em>session management flaws</em></strong>: instead of modifying ids present in the url of a site, session management flaws involve attackers modifying the tokens every user has on a site that verifies who they are</p>
+</li>
+<li>
+<p><strong><em>elevation of privilege:</em></strong> occurs when there are vulnerabilities in the system which allows a user with lower level privileges to perform actions that require higher level privileges. for instance, someone acting as a user without being logged in or someone acting as an admin despite only being a user</p>
+</li>
+</ul>
+<h2 id="how-do-we-prevent-it">how do we prevent it?</h2>
 
   <p class="pt-4">
     <a href="/"> >> home</a>

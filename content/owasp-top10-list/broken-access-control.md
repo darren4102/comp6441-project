@@ -8,10 +8,30 @@ draft = true
 
 ## what is it?
 
-before we talk about what “broken” access control is, we need to understand what access control is itself. access control is the restrictions put upon a user that determines what actions they can do and resources they can access
+before we talk about what **_“broken”_** access control is, we need to understand what access control is itself. access control is the restrictions put upon a user that determines what actions they can do and resources they can access
 
 for web applications, action control involves:
 
-- **authentication**: checking if the user is who they say they are
-- **session management**: retaining the user's authenticated state across their multiple interactions with a website
-- **access control**: verifying whether users can and are allowed do what they are trying to do
+- **_authentication_**: checking if the user is who they say they are
+- **_session management_**: retaining the user's authenticated state across their multiple interactions with a website
+- **_access control_**: verifying whether users can and are allowed do what they are trying to do
+
+with that, **_“broken”_** access control is when these restrictions are bypassed by the user. when this happens, it can give an attacker elevated privileges and lead to sensitive data such as many users’ personal information being leaked, modified or destroyed
+
+it is therefore important that necessary restrictions are properly implemented and that the principle of least principle is enforced to ensure that users are limited to what they are supposed to see and access
+
+## how does it occur?
+
+broken access control occurs when a website fails to maintain restrictions on what a user can do. these are due to vulnerabilities such as:
+
+- **_the violation of the 'principle of least privilege':_** this vulnerability occurs when users within an organisation are given more permissions than what is necessary for their role. for example, a junior accountant has admin access to the company’s financial system despite their role only requiring them to make basic reports
+
+- **_insecure direct object references (idor):_** this happens if a user’s unique identifier is present in the url of a website when they are logged in. without proper authentication, attackers can change the id to someone else’s giving them access to their account
+
+- **_bypassing access control checks:_** similar to 'idor', this happens if proper authentication is not implemented such that users are able to access certain pages of a website they are not supposed to see. this allows an attacker to modify the url by adding the route to the page they want
+
+- **_session management flaws_**: instead of modifying ids present in the url of a site, session management flaws involve attackers modifying the tokens every user has on a site that verifies who they are
+
+- **_elevation of privilege:_** occurs when there are vulnerabilities in the system which allows a user with lower level privileges to perform actions that require higher level privileges. for instance, someone acting as a user without being logged in or someone acting as an admin despite only being a user
+
+## how do we prevent it?
