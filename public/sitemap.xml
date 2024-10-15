@@ -3,7 +3,10 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2024-10-10T11:16:31+11:00</lastmod>
+    <lastmod>2024-10-15T17:39:30+11:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/owasp-top10-list/cryptographic-failures/</loc>
+    <lastmod>2024-10-15T17:39:30+11:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/owasp-top10-list/broken-access-control/</loc>
     <lastmod>2024-10-10T11:16:31+11:00</lastmod>

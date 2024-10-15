@@ -3,6 +3,7 @@
 <main
   class="w-full h-full min-h-36 bg-neutral-800/50 p-4 overflow-x-auto markdown text-yellow-50"
 >
+<h1 class="text-xl font-black">{{ .Title | markdownify }}</h1>
   {{ .Content }}
   <p class="pt-4">
     <a href="/"> >> home</a>

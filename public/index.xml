@@ -6,31 +6,38 @@
     <description>Recent content on (=✪ᆽ✪=) darrens site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 10 Oct 2024 11:16:31 +1100</lastBuildDate>
+    <lastBuildDate>Tue, 15 Oct 2024 17:39:30 +1100</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>broken-access-control</title>
+      <title>02. cryptographic failures</title>
+      <link>http://localhost:1313/owasp-top10-list/cryptographic-failures/</link>
+      <pubDate>Tue, 15 Oct 2024 17:39:30 +1100</pubDate>
+      <guid>http://localhost:1313/owasp-top10-list/cryptographic-failures/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>01. broken access control</title>
       <link>http://localhost:1313/owasp-top10-list/broken-access-control/</link>
       <pubDate>Thu, 10 Oct 2024 11:16:31 +1100</pubDate>
       <guid>http://localhost:1313/owasp-top10-list/broken-access-control/</guid>
-      <description>&lt;h1 id=&#34;01-broken-access-control&#34;&gt;01. broken access control&lt;/h1&gt;&#xA;&lt;h2 id=&#34;what-is-it&#34;&gt;what is it?&lt;/h2&gt;&#xA;&lt;p&gt;before we talk about what &lt;strong&gt;&lt;em&gt;“broken”&lt;/em&gt;&lt;/strong&gt; access control is, we need to understand what access control is itself. access control is the restrictions put upon a user that determines what actions they can do and resources they can access&lt;/p&gt;&#xA;&lt;p&gt;for web applications, action control involves:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;em&gt;authentication&lt;/em&gt;&lt;/strong&gt;: checking if the user is who they say they are&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;em&gt;session management&lt;/em&gt;&lt;/strong&gt;: retaining the user&amp;rsquo;s authenticated state across their multiple interactions with a website&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;em&gt;access control&lt;/em&gt;&lt;/strong&gt;: verifying whether users can and are allowed do what they are trying to do&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;with that, &lt;strong&gt;&lt;em&gt;“broken”&lt;/em&gt;&lt;/strong&gt; access control is when these restrictions are bypassed by the user. when this happens, it can give an attacker elevated privileges and lead to sensitive data such as many users’ personal information being leaked, modified or destroyed&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;what-is-it&#34;&gt;what is it?&lt;/h2&gt;&#xA;&lt;p&gt;before we talk about what &lt;strong&gt;&lt;em&gt;“broken”&lt;/em&gt;&lt;/strong&gt; access control is, we need to understand what access control is itself. access control is the restrictions put upon a user that determines what actions they can do and resources they can access&lt;/p&gt;&#xA;&lt;p&gt;for web applications, action control involves:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;em&gt;authentication&lt;/em&gt;&lt;/strong&gt;: checking if the user is who they say they are&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;em&gt;session management&lt;/em&gt;&lt;/strong&gt;: retaining the user&amp;rsquo;s authenticated state across their multiple interactions with a website&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;em&gt;access control&lt;/em&gt;&lt;/strong&gt;: verifying whether users can and are allowed do what they are trying to do&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;with that, &lt;strong&gt;&lt;em&gt;“broken”&lt;/em&gt;&lt;/strong&gt; access control is when these restrictions are bypassed by the user. when this happens, it can give an attacker elevated privileges and lead to sensitive data such as many users’ personal information being leaked, modified or destroyed&lt;/p&gt;</description>
     </item>
     <item>
-      <title>about-me</title>
+      <title>about me</title>
       <link>http://localhost:1313/about-me/</link>
       <pubDate>Wed, 09 Oct 2024 22:21:57 +1100</pubDate>
       <guid>http://localhost:1313/about-me/</guid>
-      <description>&lt;h1 id=&#34;about-me&#34;&gt;about me&lt;/h1&gt;&#xA;&lt;p&gt;hi, im darren and i&amp;rsquo;m a student at unsw. my zid is z5361272.&lt;/p&gt;</description>
+      <description>&lt;p&gt;hi, im darren and i&amp;rsquo;m a student at unsw. my zid is z5361272.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>owasp-top10-list</title>
+      <title>owasp top 10 list</title>
       <link>http://localhost:1313/owasp-top10-list/</link>
       <pubDate>Tue, 08 Oct 2024 21:05:22 +1100</pubDate>
       <guid>http://localhost:1313/owasp-top10-list/</guid>
-      <description>&lt;h1 id=&#34;owasp-top-10-list&#34;&gt;owasp top 10 list&lt;/h1&gt;&#xA;&lt;p&gt;below are the top 10 most common vulnerabilities online according to owasp as of 2021!&lt;/p&gt;&#xA;&lt;p&gt;click on any to view more about them (＾ ▽ ＾)&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/owasp-top10-list/broken-access-control&#34;&gt;&amp;gt; 01. broken access control&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/owasp-top10-list/cryptographic-failures&#34;&gt;&amp;gt; 02. cryptographic failures&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/owasp-top10-list/injection&#34;&gt;&amp;gt; 03. injection&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/owasp-top10-list/insecure-design&#34;&gt;&amp;gt; 04. insecure design&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/owasp-top10-list/security-misconfiguration&#34;&gt;&amp;gt; 05. security misconfiguration&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/owasp-top10-list/vulnerable-and-outdated-components&#34;&gt;&amp;gt; 06. vulnerable and outdated components&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/owasp-top10-list/identification-and-authentication-failures&#34;&gt;&amp;gt; 07. identification and authentication failures&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/owasp-top10-list/software-and-data-integrity-failures&#34;&gt;&amp;gt; 08. software and data integrity failures&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/owasp-top10-list/security-logging-and-monitoring-failures&#34;&gt;&amp;gt; 09. security logging and monitoring failures&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/owasp-top10-list/server-side-request-forgery&#34;&gt;&amp;gt; 10. server-side request forgery&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;(⌐▀͡ ̯ʖ▀)&lt;/p&gt;</description>
+      <description>&lt;p&gt;below are the top 10 most common vulnerabilities online according to owasp as of 2021!&lt;/p&gt;&#xA;&lt;p&gt;click on any to view more about them (＾ ▽ ＾)&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/owasp-top10-list/broken-access-control&#34;&gt;&amp;gt; 01. broken access control&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/owasp-top10-list/cryptographic-failures&#34;&gt;&amp;gt; 02. cryptographic failures&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/owasp-top10-list/injection&#34;&gt;&amp;gt; 03. injection&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/owasp-top10-list/insecure-design&#34;&gt;&amp;gt; 04. insecure design&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/owasp-top10-list/security-misconfiguration&#34;&gt;&amp;gt; 05. security misconfiguration&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/owasp-top10-list/vulnerable-and-outdated-components&#34;&gt;&amp;gt; 06. vulnerable and outdated components&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/owasp-top10-list/identification-and-authentication-failures&#34;&gt;&amp;gt; 07. identification and authentication failures&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/owasp-top10-list/software-and-data-integrity-failures&#34;&gt;&amp;gt; 08. software and data integrity failures&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/owasp-top10-list/security-logging-and-monitoring-failures&#34;&gt;&amp;gt; 09. security logging and monitoring failures&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/owasp-top10-list/server-side-request-forgery&#34;&gt;&amp;gt; 10. server-side request forgery&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;(⌐▀͡ ̯ʖ▀)&lt;/p&gt;</description>
     </item>
     <item>
-      <title>test</title>
+      <title>title</title>
       <link>http://localhost:1313/test/</link>
       <pubDate>Tue, 08 Oct 2024 19:22:30 +1100</pubDate>
       <guid>http://localhost:1313/test/</guid>

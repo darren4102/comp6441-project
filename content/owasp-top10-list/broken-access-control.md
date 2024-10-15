@@ -1,10 +1,8 @@
 +++
-title = 'broken-access-control'
+title = '01. broken access control'
 date = 2024-10-10T11:16:31+11:00
 draft = true
 +++
-
-# 01. broken access control
 
 ## what is it?
 
