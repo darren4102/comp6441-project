@@ -50,7 +50,7 @@
 </h1>
   <h2 id="what-is-it">what is it?</h2>
 <p>cryptographic failures are when sensitive data such as personal information, passwords, credit card numbers, etc, are not well protected by their cryptography mechanisms. this is due to the cryptography mechanisms being poorly implemented or missing entirely which provides attackers easy access to modify and steal sensitive data</p>
-<h2 id="how-does-it-occur">how does it occur?</h2>
+<h2 id="how-it-occurs">how it occurs</h2>
 <p>there are lots of different reasons why cryptographic failures occur. Below are some common issues:</p>
 <ul>
 <li>
@@ -59,7 +59,24 @@
 <li>
 <p><strong>poor key management:</strong> the keys that are used to encrypt and decrypt and data must be adequately managed to ensure security. poor key management involves generating weak or predictable keys, storing keys in insecure locations, not rotating to new keys, sending keys over an insecure connection, etc</p>
 </li>
+<li>
+<p><strong>transmitting over insecure protocols:</strong> data that is transmitted in plaintext over protocols such as http, smtp and ftp can be easily intercepted by attackers. when the data is transmitted over the public internet, it is very susceptible to man-in-the-middle (mitm) attacks.</p>
+</li>
+<li>
+<p><strong>vulnerable to side-channel attacks:</strong> attackers can observe how the system behaves when encrypting such as its execution time, power utilisation, electromagnetic signals, etc. with this, attackers can infer cryptographic keys that will decrypt data</p>
+</li>
 </ul>
+<h2 id="how-it-is-prevented">how it is prevented</h2>
+<ul>
+<li>classify data that is used by the application and those that are sensitive based on privacy laws and business needs</li>
+<li>do not keep sensitive data stored for longer than necessary. if data is not stored, it can not be stolen</li>
+<li>any sensitive data that is saved on the disk or databases must be encrypted</li>
+<li>make sure that standard algorithms, protocols and keys are up to date and strong and use proper key management</li>
+<li>encrypt data that is transmitted over networks with protocols that encrypt the data</li>
+<li>use cryptographically secure random number generators where necessary to avoid predictability</li>
+<li>regularly testing and auditing the security configurations to ensure its effectiveness</li>
+</ul>
+<h2 id="example-attack">example attack</h2>
 
   <p class="pt-4">
     <a href="/"> >> home</a>

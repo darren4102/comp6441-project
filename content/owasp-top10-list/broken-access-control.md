@@ -18,7 +18,7 @@ with that, **_“broken”_** access control is when these restrictions are bypa
 
 it is therefore important that necessary restrictions are properly implemented and that the principle of least principle is enforced to ensure that users are limited to what they are supposed to see and access
 
-## how does it occur?
+## how it occurs
 
 broken access control occurs when a website fails to maintain restrictions on what a user can do. these are due to vulnerabilities such as:
 
@@ -32,7 +32,7 @@ broken access control occurs when a website fails to maintain restrictions on wh
 
 - **_elevation of privilege:_** occurs when there are vulnerabilities in the system which allows a user with lower level privileges to perform actions that require higher level privileges. for instance, someone acting as a user without being logged in or someone acting as an admin despite only being a user
 
-## how do we prevent it?
+## how it is prevented
 
 access control is effective only if it is performed server-side rather than on the user’s machine. this stops attackers from changing verification code and metadata. also the system should not rely on security through obscurity
 

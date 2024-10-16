@@ -6,14 +6,21 @@
     <description>Recent content on (=✪ᆽ✪=) darrens site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 15 Oct 2024 17:39:30 +1100</lastBuildDate>
+    <lastBuildDate>Thu, 17 Oct 2024 00:27:48 +1100</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Injection</title>
+      <link>http://localhost:1313/owasp-top10-list/injection/</link>
+      <pubDate>Thu, 17 Oct 2024 00:27:48 +1100</pubDate>
+      <guid>http://localhost:1313/owasp-top10-list/injection/</guid>
+      <description></description>
+    </item>
     <item>
       <title>02. cryptographic failures</title>
       <link>http://localhost:1313/owasp-top10-list/cryptographic-failures/</link>
       <pubDate>Tue, 15 Oct 2024 17:39:30 +1100</pubDate>
       <guid>http://localhost:1313/owasp-top10-list/cryptographic-failures/</guid>
-      <description>&lt;h2 id=&#34;what-is-it&#34;&gt;what is it?&lt;/h2&gt;&#xA;&lt;p&gt;cryptographic failures are when sensitive data such as personal information, passwords, credit card numbers, etc, are not well protected by their cryptography mechanisms. this is due to the cryptography mechanisms being poorly implemented or missing entirely which provides attackers easy access to modify and steal sensitive data&lt;/p&gt;&#xA;&lt;h2 id=&#34;how-does-it-occur&#34;&gt;how does it occur?&lt;/h2&gt;&#xA;&lt;p&gt;there are lots of different reasons why cryptographic failures occur. Below are some common issues:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;weak encryption algorithms:&lt;/strong&gt; the encryption algorithm used may be weak or outdated making it vulnerable to attacks. for example, a weak encryption algorithm may use a key that is easily guessable by brute force, where the attacker uses trial and error to guess the correct key.&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;what-is-it&#34;&gt;what is it?&lt;/h2&gt;&#xA;&lt;p&gt;cryptographic failures are when sensitive data such as personal information, passwords, credit card numbers, etc, are not well protected by their cryptography mechanisms. this is due to the cryptography mechanisms being poorly implemented or missing entirely which provides attackers easy access to modify and steal sensitive data&lt;/p&gt;&#xA;&lt;h2 id=&#34;how-it-occurs&#34;&gt;how it occurs&lt;/h2&gt;&#xA;&lt;p&gt;there are lots of different reasons why cryptographic failures occur. Below are some common issues:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;weak encryption algorithms:&lt;/strong&gt; the encryption algorithm used may be weak or outdated making it vulnerable to attacks. for example, a weak encryption algorithm may use a key that is easily guessable by brute force, where the attacker uses trial and error to guess the correct key.&lt;/p&gt;</description>
     </item>
     <item>
       <title>01. broken access control</title>
