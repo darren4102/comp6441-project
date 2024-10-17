@@ -9,7 +9,7 @@
     <lastBuildDate>Thu, 17 Oct 2024 00:27:48 +1100</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Injection</title>
+      <title>03. injection</title>
       <link>http://localhost:1313/owasp-top10-list/injection/</link>
       <pubDate>Thu, 17 Oct 2024 00:27:48 +1100</pubDate>
       <guid>http://localhost:1313/owasp-top10-list/injection/</guid>
