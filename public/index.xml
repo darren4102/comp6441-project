@@ -13,56 +13,56 @@
       <link>http://localhost:1313/owasp-top10-list/server-side-request-forgery/</link>
       <pubDate>Thu, 31 Oct 2024 21:06:45 +1100</pubDate>
       <guid>http://localhost:1313/owasp-top10-list/server-side-request-forgery/</guid>
-      <description></description>
+      <description>&lt;h1 id=&#34;what-is-it&#34;&gt;what is it?&lt;/h1&gt;&#xA;&lt;h1 id=&#34;how-it-occurs&#34;&gt;how it occurs&lt;/h1&gt;&#xA;&lt;h1 id=&#34;how-it-is-prevented&#34;&gt;how it is prevented&lt;/h1&gt;&#xA;&lt;h1 id=&#34;real-life-example&#34;&gt;real-life example&lt;/h1&gt;&#xA;&lt;h1 id=&#34;example-attack&#34;&gt;example attack&lt;/h1&gt;</description>
     </item>
     <item>
       <title>09. security logging and monitoring failures</title>
       <link>http://localhost:1313/owasp-top10-list/security-logging-and-monitoring-failures/</link>
       <pubDate>Thu, 31 Oct 2024 21:06:33 +1100</pubDate>
       <guid>http://localhost:1313/owasp-top10-list/security-logging-and-monitoring-failures/</guid>
-      <description></description>
+      <description>&lt;h1 id=&#34;what-is-it&#34;&gt;what is it?&lt;/h1&gt;&#xA;&lt;h1 id=&#34;how-it-occurs&#34;&gt;how it occurs&lt;/h1&gt;&#xA;&lt;h1 id=&#34;how-it-is-prevented&#34;&gt;how it is prevented&lt;/h1&gt;&#xA;&lt;h1 id=&#34;real-life-example&#34;&gt;real-life example&lt;/h1&gt;&#xA;&lt;h1 id=&#34;example-attack&#34;&gt;example attack&lt;/h1&gt;</description>
     </item>
     <item>
       <title>08. software and data integrity failures</title>
       <link>http://localhost:1313/owasp-top10-list/software-and-data-integrity-failures/</link>
       <pubDate>Thu, 31 Oct 2024 21:06:20 +1100</pubDate>
       <guid>http://localhost:1313/owasp-top10-list/software-and-data-integrity-failures/</guid>
-      <description></description>
+      <description>&lt;h1 id=&#34;what-is-it&#34;&gt;what is it?&lt;/h1&gt;&#xA;&lt;h1 id=&#34;how-it-occurs&#34;&gt;how it occurs&lt;/h1&gt;&#xA;&lt;h1 id=&#34;how-it-is-prevented&#34;&gt;how it is prevented&lt;/h1&gt;&#xA;&lt;h1 id=&#34;real-life-example&#34;&gt;real-life example&lt;/h1&gt;&#xA;&lt;h1 id=&#34;example-attack&#34;&gt;example attack&lt;/h1&gt;</description>
     </item>
     <item>
       <title>07. identification and authentication failures</title>
       <link>http://localhost:1313/owasp-top10-list/identification-and-authentication-failures/</link>
       <pubDate>Thu, 31 Oct 2024 21:06:04 +1100</pubDate>
       <guid>http://localhost:1313/owasp-top10-list/identification-and-authentication-failures/</guid>
-      <description></description>
+      <description>&lt;h1 id=&#34;what-is-it&#34;&gt;what is it?&lt;/h1&gt;&#xA;&lt;h1 id=&#34;how-it-occurs&#34;&gt;how it occurs&lt;/h1&gt;&#xA;&lt;h1 id=&#34;how-it-is-prevented&#34;&gt;how it is prevented&lt;/h1&gt;&#xA;&lt;h1 id=&#34;real-life-example&#34;&gt;real-life example&lt;/h1&gt;&#xA;&lt;h1 id=&#34;example-attack&#34;&gt;example attack&lt;/h1&gt;</description>
     </item>
     <item>
       <title>06. vulnerable and outdated components</title>
       <link>http://localhost:1313/owasp-top10-list/vulnerable-and-outdated-components/</link>
       <pubDate>Thu, 31 Oct 2024 21:05:41 +1100</pubDate>
       <guid>http://localhost:1313/owasp-top10-list/vulnerable-and-outdated-components/</guid>
-      <description></description>
+      <description>&lt;h1 id=&#34;what-is-it&#34;&gt;what is it?&lt;/h1&gt;&#xA;&lt;h1 id=&#34;how-it-occurs&#34;&gt;how it occurs&lt;/h1&gt;&#xA;&lt;h1 id=&#34;how-it-is-prevented&#34;&gt;how it is prevented&lt;/h1&gt;&#xA;&lt;h1 id=&#34;real-life-example&#34;&gt;real-life example&lt;/h1&gt;&#xA;&lt;h1 id=&#34;example-attack&#34;&gt;example attack&lt;/h1&gt;</description>
     </item>
     <item>
       <title>05. security misconfiguration</title>
       <link>http://localhost:1313/owasp-top10-list/security-misconfiguration/</link>
       <pubDate>Thu, 31 Oct 2024 21:05:24 +1100</pubDate>
       <guid>http://localhost:1313/owasp-top10-list/security-misconfiguration/</guid>
-      <description></description>
+      <description>&lt;h1 id=&#34;what-is-it&#34;&gt;what is it?&lt;/h1&gt;&#xA;&lt;h1 id=&#34;how-it-occurs&#34;&gt;how it occurs&lt;/h1&gt;&#xA;&lt;h1 id=&#34;how-it-is-prevented&#34;&gt;how it is prevented&lt;/h1&gt;&#xA;&lt;h1 id=&#34;real-life-example&#34;&gt;real-life example&lt;/h1&gt;&#xA;&lt;h1 id=&#34;example-attack&#34;&gt;example attack&lt;/h1&gt;</description>
     </item>
     <item>
       <title>04. insecure design</title>
       <link>http://localhost:1313/owasp-top10-list/insecure-design/</link>
       <pubDate>Thu, 31 Oct 2024 21:05:11 +1100</pubDate>
       <guid>http://localhost:1313/owasp-top10-list/insecure-design/</guid>
-      <description></description>
+      <description>&lt;h1 id=&#34;what-is-it&#34;&gt;what is it?&lt;/h1&gt;&#xA;&lt;h1 id=&#34;how-it-occurs&#34;&gt;how it occurs&lt;/h1&gt;&#xA;&lt;h1 id=&#34;how-it-is-prevented&#34;&gt;how it is prevented&lt;/h1&gt;&#xA;&lt;h1 id=&#34;real-life-example&#34;&gt;real-life example&lt;/h1&gt;&#xA;&lt;h1 id=&#34;example-attack&#34;&gt;example attack&lt;/h1&gt;</description>
     </item>
     <item>
       <title>03. injection</title>
       <link>http://localhost:1313/owasp-top10-list/injection/</link>
       <pubDate>Thu, 17 Oct 2024 00:27:48 +1100</pubDate>
       <guid>http://localhost:1313/owasp-top10-list/injection/</guid>
-      <description></description>
+      <description>&lt;h1 id=&#34;what-is-it&#34;&gt;what is it?&lt;/h1&gt;&#xA;&lt;h1 id=&#34;how-it-occurs&#34;&gt;how it occurs&lt;/h1&gt;&#xA;&lt;h1 id=&#34;how-it-is-prevented&#34;&gt;how it is prevented&lt;/h1&gt;&#xA;&lt;h1 id=&#34;real-life-example&#34;&gt;real-life example&lt;/h1&gt;&#xA;&lt;h1 id=&#34;example-attack&#34;&gt;example attack&lt;/h1&gt;</description>
     </item>
     <item>
       <title>02. cryptographic failures</title>

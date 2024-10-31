@@ -45,6 +45,8 @@ other ways to prevent include:
 - limiting the the number of api requests to protect against attackers or bots
 - denying access to private pages of a website by default to prevent elevation of privileges
 
+## real-life example
+
 ## example attack
 
 below is an attack exploiting 'idor'. the attacker is able to change the id in the url to access someone else's account
