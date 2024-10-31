@@ -45,3 +45,7 @@ identification and authentication failures are when a system does not properly v
 in 2015, ashley madison, an online dating service had a data breach which affected 36 million of its users. some of these users included government and military employees. from the data collected, 11 million passwords that were hashed were cracked due to them being generic. passwords such as “password” or “123456” were commonly used
 
 ## example attack
+
+the below shows a flaw in the authentication mechanism where the re-registration of an account is allowed. instead of registering with "admin" which will not work as it already exists, we register with " admin" which contains a space prefix. this comes off as a differnet username when registering but once registered, is treated as the admin account
+
+<img src="/examples/owasp7.gif" alt="owasp7_example.gif"/>

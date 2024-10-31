@@ -40,7 +40,7 @@
 <main
   class="w-full h-full min-h-36 bg-neutral-800/50 p-4 overflow-x-auto markdown text-yellow-50"
 >
-<h1 class="text-xl font-black">09. security logging and monitoring failures</h1>
+  <h1 class="text-xl font-black">09. security logging and monitoring failures</h1>
   <h2 id="what-is-it">what is it?</h2>
 <p>logging and monitoring is needed to effectively detect and respond to any active breaches. logging involves recording any events that occur within an application such as user logins, transactions or errors to be used for security analysis. monitoring then refers to continuously observing the logs to detect any suspicious events. this helps in identifying security breaches in real-time. failure to incorporate logging and monitoring can lead to breaches that are missed</p>
 <h2 id="how-it-occurs">how it occurs</h2>
@@ -86,6 +86,8 @@ inability to handle real-time breaches: when an application cannot detect any ac
 <h2 id="real-life-example">real-life example</h2>
 <p>during the 2013 holiday season, target, the second largest discount store chain in the usa had a data breach which affected 70 million customers. it resulted in the theft of a large amount of customer data which included 40 million credit and debit card accounts. this was due to their failure to log failed login attempts which allowed attackers to attempt various usernames and passwords from the same ip address. this attack led to target losing $200 million and their customer trust</p>
 <h2 id="example-attack">example attack</h2>
+<p>below shows some sample logs. we can see that a user from ip address 49.99.13.16 is attempting a brute force attack on this system. they are testing various usernames to gain unauthorised access to the system</p>
+<img src="/examples/owasp9.png" alt="owasp9_example.png"/>
 
   <p class="pt-4">
     <a href="/"> >> home</a>

@@ -40,3 +40,7 @@ logging and monitoring is needed to effectively detect and respond to any active
 during the 2013 holiday season, target, the second largest discount store chain in the usa had a data breach which affected 70 million customers. it resulted in the theft of a large amount of customer data which included 40 million credit and debit card accounts. this was due to their failure to log failed login attempts which allowed attackers to attempt various usernames and passwords from the same ip address. this attack led to target losing $200 million and their customer trust
 
 ## example attack
+
+below shows some sample logs. we can see that a user from ip address 49.99.13.16 is attempting a brute force attack on this system. they are testing various usernames to gain unauthorised access to the system
+
+<img src="/examples/owasp9.png" alt="owasp9_example.png"/>

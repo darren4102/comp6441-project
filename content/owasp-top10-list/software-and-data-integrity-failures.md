@@ -37,3 +37,19 @@ integrity in cyber security refers to ensuring that any data within a system has
 in 2020, hackers used a third-party provider that had access to the solarwind's orion platform to insert malicious code into their new batch of updates. without the verification of this update, the code led to thousands of data, networks and systems to be compromised. it allowed attackers to access solarwind’s customer information technology systems where they could install even more malware to spy on other companies
 
 ## example attack
+
+once logged in as a regular user below, we can open up the developer window and view the json web token (jwt) which is used to authenticate the user.
+
+<img src="/examples/owasp8-1.gif" alt="owasp8-1_example.gif"/>
+
+the jwt are in the "header.payload.signature" format and is encoded as base64. we can decode this by using dedicated base64 decoder websites. by ignoring the signature part, the jwt is decoded as
+
+{"typ":"JWT","alg":"HS256"}.{"username":"guest","exp":1730361269}.
+
+we can then alter it by changing "HS256" which is the signing algorithm for the signature to "None" and changing "guest" to "admin". as "HS256" is removed, the signature will not be checked and can be dropped (fullstop is still kept). the changes can be seen below
+
+{"typ":"JWT","alg":"none"}.{"username":"admin","exp":1730361269}.
+
+we then encode this altered jwt and replace our current jwt session and refresh the site to see our new permissions
+
+<img src="/examples/owasp8-2.gif" alt="owasp8-2_example.gif"/>

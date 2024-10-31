@@ -94,6 +94,8 @@
 <h2 id="real-life-example">real-life example</h2>
 <p>in 2015, ashley madison, an online dating service had a data breach which affected 36 million of its users. some of these users included government and military employees. from the data collected, 11 million passwords that were hashed were cracked due to them being generic. passwords such as “password” or “123456” were commonly used</p>
 <h2 id="example-attack">example attack</h2>
+<p>the below shows a flaw in the authentication mechanism where the re-registration of an account is allowed. instead of registering with &ldquo;admin&rdquo; which will not work as it already exists, we register with &quot; admin&quot; which contains a space prefix. this comes off as a differnet username when registering but once registered, is treated as the admin account</p>
+<img src="/examples/owasp7.gif" alt="owasp7_example.gif"/>
 
   <p class="pt-4">
     <a href="/"> >> home</a>
