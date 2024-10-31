@@ -13,56 +13,56 @@
       <link>http://localhost:1313/owasp-top10-list/server-side-request-forgery/</link>
       <pubDate>Thu, 31 Oct 2024 21:06:45 +1100</pubDate>
       <guid>http://localhost:1313/owasp-top10-list/server-side-request-forgery/</guid>
-      <description>&lt;h2 id=&#34;what-is-it&#34;&gt;what is it?&lt;/h2&gt;&#xA;&lt;h2 id=&#34;how-it-occurs&#34;&gt;how it occurs&lt;/h2&gt;&#xA;&lt;h2 id=&#34;how-it-is-prevented&#34;&gt;how it is prevented&lt;/h2&gt;&#xA;&lt;h2 id=&#34;real-life-example&#34;&gt;real-life example&lt;/h2&gt;&#xA;&lt;h2 id=&#34;example-attack&#34;&gt;example attack&lt;/h2&gt;</description>
+      <description>&lt;h2 id=&#34;what-is-it&#34;&gt;what is it?&lt;/h2&gt;&#xA;&lt;p&gt;server-side request forgery (ssrf) is when attackers trick a server into making a request on their behalf. this allows attackers to control the requests a server makes and as a result can lead to the application sending sensitive data to unexpected locations such as the attacker’s own server. this is common with applications that use an external api and do not verify whether they are really making requests to the api’s server. as modern applications tend to have lots of features and rely on such apis, ssrf is becoming a more common scenario&lt;/p&gt;</description>
     </item>
     <item>
       <title>09. security logging and monitoring failures</title>
       <link>http://localhost:1313/owasp-top10-list/security-logging-and-monitoring-failures/</link>
       <pubDate>Thu, 31 Oct 2024 21:06:33 +1100</pubDate>
       <guid>http://localhost:1313/owasp-top10-list/security-logging-and-monitoring-failures/</guid>
-      <description>&lt;h2 id=&#34;what-is-it&#34;&gt;what is it?&lt;/h2&gt;&#xA;&lt;h2 id=&#34;how-it-occurs&#34;&gt;how it occurs&lt;/h2&gt;&#xA;&lt;h2 id=&#34;how-it-is-prevented&#34;&gt;how it is prevented&lt;/h2&gt;&#xA;&lt;h2 id=&#34;real-life-example&#34;&gt;real-life example&lt;/h2&gt;&#xA;&lt;h2 id=&#34;example-attack&#34;&gt;example attack&lt;/h2&gt;</description>
+      <description>&lt;h2 id=&#34;what-is-it&#34;&gt;what is it?&lt;/h2&gt;&#xA;&lt;p&gt;logging and monitoring is needed to effectively detect and respond to any active breaches. logging involves recording any events that occur within an application such as user logins, transactions or errors to be used for security analysis. monitoring then refers to continuously observing the logs to detect any suspicious events. this helps in identifying security breaches in real-time. failure to incorporate logging and monitoring can lead to breaches that are missed&lt;/p&gt;</description>
     </item>
     <item>
       <title>08. software and data integrity failures</title>
       <link>http://localhost:1313/owasp-top10-list/software-and-data-integrity-failures/</link>
       <pubDate>Thu, 31 Oct 2024 21:06:20 +1100</pubDate>
       <guid>http://localhost:1313/owasp-top10-list/software-and-data-integrity-failures/</guid>
-      <description>&lt;h2 id=&#34;what-is-it&#34;&gt;what is it?&lt;/h2&gt;&#xA;&lt;h2 id=&#34;how-it-occurs&#34;&gt;how it occurs&lt;/h2&gt;&#xA;&lt;h2 id=&#34;how-it-is-prevented&#34;&gt;how it is prevented&lt;/h2&gt;&#xA;&lt;h2 id=&#34;real-life-example&#34;&gt;real-life example&lt;/h2&gt;&#xA;&lt;h2 id=&#34;example-attack&#34;&gt;example attack&lt;/h2&gt;</description>
+      <description>&lt;h2 id=&#34;what-is-it&#34;&gt;what is it?&lt;/h2&gt;&#xA;&lt;p&gt;integrity in cyber security refers to ensuring that any data within a system has not been tampered with. this is essential as data should remain accurate and correct at all times to ensure the trust of users and compliance with regulations. software and data integrity failures are hence when systems do not properly protect their code and infrastructure against integrity violations such as being modified and deleted&lt;/p&gt;</description>
     </item>
     <item>
       <title>07. identification and authentication failures</title>
       <link>http://localhost:1313/owasp-top10-list/identification-and-authentication-failures/</link>
       <pubDate>Thu, 31 Oct 2024 21:06:04 +1100</pubDate>
       <guid>http://localhost:1313/owasp-top10-list/identification-and-authentication-failures/</guid>
-      <description>&lt;h2 id=&#34;what-is-it&#34;&gt;what is it?&lt;/h2&gt;&#xA;&lt;h2 id=&#34;how-it-occurs&#34;&gt;how it occurs&lt;/h2&gt;&#xA;&lt;h2 id=&#34;how-it-is-prevented&#34;&gt;how it is prevented&lt;/h2&gt;&#xA;&lt;h2 id=&#34;real-life-example&#34;&gt;real-life example&lt;/h2&gt;&#xA;&lt;h2 id=&#34;example-attack&#34;&gt;example attack&lt;/h2&gt;</description>
+      <description>&lt;h2 id=&#34;what-is-it&#34;&gt;what is it?&lt;/h2&gt;&#xA;&lt;p&gt;identification and authentication failures are when a system does not properly verify the identity of a user and determine what they can and cannot do. this failure can lead to attackers gaining unauthorised access to accounts and sensitive data&lt;/p&gt;&#xA;&lt;h2 id=&#34;how-it-occurs&#34;&gt;how it occurs&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;&lt;em&gt;permits credential stuffing:&lt;/em&gt;&lt;/strong&gt; the system permits credential stuffing which is an attack where attackers attempt to log in using a list of stolen usernames and passwords&lt;/p&gt;</description>
     </item>
     <item>
       <title>06. vulnerable and outdated components</title>
       <link>http://localhost:1313/owasp-top10-list/vulnerable-and-outdated-components/</link>
       <pubDate>Thu, 31 Oct 2024 21:05:41 +1100</pubDate>
       <guid>http://localhost:1313/owasp-top10-list/vulnerable-and-outdated-components/</guid>
-      <description>&lt;h2 id=&#34;what-is-it&#34;&gt;what is it?&lt;/h2&gt;&#xA;&lt;h2 id=&#34;how-it-occurs&#34;&gt;how it occurs&lt;/h2&gt;&#xA;&lt;h2 id=&#34;how-it-is-prevented&#34;&gt;how it is prevented&lt;/h2&gt;&#xA;&lt;h2 id=&#34;real-life-example&#34;&gt;real-life example&lt;/h2&gt;&#xA;&lt;h2 id=&#34;example-attack&#34;&gt;example attack&lt;/h2&gt;</description>
+      <description>&lt;h2 id=&#34;what-is-it&#34;&gt;what is it?&lt;/h2&gt;&#xA;&lt;p&gt;vulnerable and outdated components are just what they say they are, they are components that are no longer supported or not updated to the latest version and as a result have known security flaws. as these flaws are well known, it makes it very easy for attackers to exploit the system. some common components that are susceptible to this are libraries, frameworks, operating systems and applications&lt;/p&gt;&#xA;&lt;h2 id=&#34;how-it-occurs&#34;&gt;how it occurs&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;&lt;em&gt;not knowing versions of components:&lt;/em&gt;&lt;/strong&gt; when you are not keeping track of what version your components are using you may not know of the latest version with improved security or how secure your current system is.&#xA;using unsupported or outdated software: software that is outdated or no longer supported may have known security vulnerabilities which attackers can easily exploit&lt;/p&gt;</description>
     </item>
     <item>
       <title>05. security misconfiguration</title>
       <link>http://localhost:1313/owasp-top10-list/security-misconfiguration/</link>
       <pubDate>Thu, 31 Oct 2024 21:05:24 +1100</pubDate>
       <guid>http://localhost:1313/owasp-top10-list/security-misconfiguration/</guid>
-      <description>&lt;h2 id=&#34;what-is-it&#34;&gt;what is it?&lt;/h2&gt;&#xA;&lt;h2 id=&#34;how-it-occurs&#34;&gt;how it occurs&lt;/h2&gt;&#xA;&lt;h2 id=&#34;how-it-is-prevented&#34;&gt;how it is prevented&lt;/h2&gt;&#xA;&lt;h2 id=&#34;real-life-example&#34;&gt;real-life example&lt;/h2&gt;&#xA;&lt;h2 id=&#34;example-attack&#34;&gt;example attack&lt;/h2&gt;</description>
+      <description>&lt;h2 id=&#34;what-is-it&#34;&gt;what is it?&lt;/h2&gt;&#xA;&lt;p&gt;security misconfiguration refers to when security frameworks and components are put in place but were not configured appropriately to maintain and maximise security. when misconfigured, it leaves gaps within an application which an attacker can exploit. for example, an application may contain default login information such as the “admin” username which is not changed. as these login credentials are widely used, they can be easily guessed, allowing attackers to easily gain access to such accounts&lt;/p&gt;</description>
     </item>
     <item>
       <title>04. insecure design</title>
       <link>http://localhost:1313/owasp-top10-list/insecure-design/</link>
       <pubDate>Thu, 31 Oct 2024 21:05:11 +1100</pubDate>
       <guid>http://localhost:1313/owasp-top10-list/insecure-design/</guid>
-      <description>&lt;h2 id=&#34;what-is-it&#34;&gt;what is it?&lt;/h2&gt;&#xA;&lt;h2 id=&#34;how-it-occurs&#34;&gt;how it occurs&lt;/h2&gt;&#xA;&lt;h2 id=&#34;how-it-is-prevented&#34;&gt;how it is prevented&lt;/h2&gt;&#xA;&lt;h2 id=&#34;real-life-example&#34;&gt;real-life example&lt;/h2&gt;&#xA;&lt;h2 id=&#34;example-attack&#34;&gt;example attack&lt;/h2&gt;</description>
+      <description>&lt;h2 id=&#34;what-is-it&#34;&gt;what is it?&lt;/h2&gt;&#xA;&lt;p&gt;insecure design refers to a broad range of security issues related to how an application was designed and built from the start. an application’s design is considered insecure if security controls were neglected throughout its development cycle, leaving it vulnerable to attacks even if its code was written perfectly.&lt;/p&gt;&#xA;&lt;p&gt;for example, a login page may be written perfectly, however, if it was designed such that there was no limit to failed login attempts, it will be vulnerable to brute force attacks. it is therefore essential that all the security requirements of an application are thoroughly thought out before its initial development to ensure security is not compromised&lt;/p&gt;</description>
     </item>
     <item>
       <title>03. injection</title>
       <link>http://localhost:1313/owasp-top10-list/injection/</link>
       <pubDate>Thu, 17 Oct 2024 00:27:48 +1100</pubDate>
       <guid>http://localhost:1313/owasp-top10-list/injection/</guid>
-      <description>&lt;h2 id=&#34;what-is-it&#34;&gt;what is it?&lt;/h2&gt;&#xA;&lt;h2 id=&#34;how-it-occurs&#34;&gt;how it occurs&lt;/h2&gt;&#xA;&lt;h2 id=&#34;how-it-is-prevented&#34;&gt;how it is prevented&lt;/h2&gt;&#xA;&lt;h2 id=&#34;real-life-example&#34;&gt;real-life example&lt;/h2&gt;&#xA;&lt;h2 id=&#34;example-attack&#34;&gt;example attack&lt;/h2&gt;</description>
+      <description>&lt;h2 id=&#34;what-is-it&#34;&gt;what is it?&lt;/h2&gt;&#xA;&lt;p&gt;injection is when an attacker tries to send some text to an application’s input field and the application interprets it as code it will execute. the code that is injected into systems typically involves sql, system commands and xml. injection attacks commonly target web applications, databases, operating systems, software applications and web servers. once executed, attackers can gain access to sensitive database data or system files and even take control of the application or system&lt;/p&gt;</description>
     </item>
     <item>
       <title>02. cryptographic failures</title>

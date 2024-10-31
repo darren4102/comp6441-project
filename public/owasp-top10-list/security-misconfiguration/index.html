@@ -46,9 +46,45 @@
 >
 <h1 class="text-xl font-black">05. security misconfiguration</h1>
   <h2 id="what-is-it">what is it?</h2>
+<p>security misconfiguration refers to when security frameworks and components are put in place but were not configured appropriately to maintain and maximise security. when misconfigured, it leaves gaps within an application which an attacker can exploit. for example, an application may contain default login information such as the “admin” username which is not changed. as these login credentials are widely used, they can be easily guessed, allowing attackers to easily gain access to such accounts</p>
 <h2 id="how-it-occurs">how it occurs</h2>
+<ul>
+<li>
+<p><strong><em>unchanged default passwords and configurations:</em></strong> when default accounts such as “admin” or “guest” and default passwords have not been changed, attackers can easily exploit them by guessing to gain access</p>
+</li>
+<li>
+<p><strong><em>enabling unnecessary features:</em></strong> when an application has extra features such as services, ports or pages that are not used but still enabled, it expands an attacker’s attack surface by providing additional entry points for attackers</p>
+</li>
+<li>
+<p><strong><em>overly informative error handling:</em></strong> when an error is encountered, it can reveal additional technical information such as its code or database structure to users. with this, attackers can understand how a system works to find vulnerabilities</p>
+</li>
+<li>
+<p><strong><em>new security features not enabled:</em></strong> when a system is upgraded, it might introduce new security features, however, they may be disabled by default which leaves the system vulnerable</p>
+</li>
+<li>
+<p><strong><em>outdated software:</em></strong> a system or its components may be outdated with known vulnerabilities. as these vulnerabilities are known, it makes it very easy for attackers to exploit those vulnerabilities</p>
+</li>
+</ul>
 <h2 id="how-it-is-prevented">how it is prevented</h2>
+<ul>
+<li>
+<p><strong><em>implementing a repeatable process:</em></strong> by creating a standardised method that is used when configuring a new environment such as for the development, quality assurance and production stages of software development, it ensures each environment follows a consistent standard of security. this method should also be automated such as using a script that configures the necessary ports and disables unused services in order for new environments to be set up efficiently</p>
+</li>
+<li>
+<p><strong><em>using a minimal platform:</em></strong> reduce the attack surface of an attacker by disabling or not installing any unused features or components. as attackers have less components to exploit, it reduces the likelihood of an attack</p>
+</li>
+<li>
+<p><strong><em>review and update configurations:</em></strong> having regular checks and updating configurations to fix any vulnerabilities and ensure that its security is upheld and maintained. for instance, scheduling monthly security reviews to ensure the application has the latest security features</p>
+</li>
+<li>
+<p><strong><em>using automated verification tools:</em></strong> rather than manually reviewing security configurations, an automated tool can be used to regularly check if configurations are correctly applied across all environments</p>
+</li>
+<li>
+<p><strong><em>segmenting different parts of the application:</em></strong> by isolating different components of an application into their own independent section, it limits what an attacker has access to if they breach one area. common techniques such as network segmentation, containerisation and access control lists (acl) are generally used</p>
+</li>
+</ul>
 <h2 id="real-life-example">real-life example</h2>
+<p>citrix, which provides virtual apps for users, was targeted for an attack in 2019 where legacy protocols it used were exploited. the legacy protocols imap and pop which were used made it difficult for system administrators to establish and activate mfa for all users. this made their system vulnerable to brute force attacks</p>
 <h2 id="example-attack">example attack</h2>
 
   <p class="pt-4">
