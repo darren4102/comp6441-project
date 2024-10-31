@@ -1,4 +1,6 @@
 baseURL = 'https://darren4102.github.io/'
+relativeURLs = true
+uglyURLs = true
 languageCode = 'en-us'
 title = '(=✪ᆽ✪=) darrens site'
 theme = "cyberscape"
