@@ -1,4 +1,5 @@
 baseURL = 'https://darren4102.github.io/comp6441-project'
+relativeURLs = true
 languageCode = 'en-us'
 title = '(=✪ᆽ✪=) darrens site'
 theme = "cyberscape"

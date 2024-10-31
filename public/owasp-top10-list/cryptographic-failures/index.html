@@ -3,14 +3,14 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   
-  <link rel="stylesheet" href="/comp6441-project/style.css" />
+  <link rel="stylesheet" href="../../comp6441-project/style.css" />
    
   <title>(=✪ᆽ✪=) darrens site | 02. cryptographic failures</title>
 </head>
 <body
     class="bg-[url('/images/stars.gif')] max-w-[100vw] overflow-x-hidden font-mono text-xs text-yellow-50"
   ><header>
-  <a href="/">
+  <a href="../../">
     <figure
       id="header"
       class="max-w-4xl mx-4 mt-16 bg-titlebar lg:m-auto lg:mt-16"
@@ -26,15 +26,15 @@
     </li>
      
     <li>
-      <a href="/comp6441-project/owasp-top10-list/">~/owasp-top10-list</a>
+      <a href="../../comp6441-project/owasp-top10-list/">~/owasp-top10-list</a>
     </li>
      
     <li>
-      <a href="/comp6441-project/about-me/">~/about-me</a>
+      <a href="../../comp6441-project/about-me/">~/about-me</a>
     </li>
      
     <li>
-      <a href="/comp6441-project/references/">~/references</a>
+      <a href="../../comp6441-project/references/">~/references</a>
     </li>
     
   </ul>
@@ -77,14 +77,14 @@
 <p>in 2013, yahoo was data breached which led to the data theft of all 3 billion yahoo users. following investigation, it was found that yahoo was using outdated encryption that was easy to crack. this included the use of the insecure md5 hashing algorithm. the breach led to a $117.5 million class-action settlement and a $35 million fine from the us securities and exchange commission.</p>
 <h2 id="example-attack">example attack</h2>
 <p>once an attacker has gained access to a database (sqlite webapp.db file in this case) they will be met with hashed data. for this example the password for the admin was hashed</p>
-<img src="/examples/owasp2-1.gif" alt="owasp2-1_example.gif"/>
+<img src="../../examples/owasp2-1.gif" alt="owasp2-1_example.gif"/>
 <p>once a hash is obtained, hash identifying tools (nth used below) could be used to easily identify hashing algorithms that are vulnerable. in the example below, it was quickly found that the hash used md5, whose function is considered severely compromised</p>
-<img src="/examples/owasp2-2.gif" alt="owasp2-2_example.gif"/>
+<img src="../../examples/owasp2-2.gif" alt="owasp2-2_example.gif"/>
 <p>by knowing the hashing algorithm for a hash, they could be easily cracked with tools such as hashcat. the below shows hashcat being used on the admin password hash where &ldquo;-m 0&rdquo; refers to the md5 algorithm. this found the password to be &ldquo;qwertyuiop&rdquo;</p>
-<img src="/examples/owasp2-3.gif" alt="owasp2-3_example.gif"/>
+<img src="../../examples/owasp2-3.gif" alt="owasp2-3_example.gif"/>
 
   <p class="pt-4">
-    <a href="/"> >> home</a>
+    <a href="../../"> >> home</a>
   </p>
 </main>
 

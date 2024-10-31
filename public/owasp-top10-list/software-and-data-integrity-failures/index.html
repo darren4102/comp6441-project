@@ -3,14 +3,14 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   
-  <link rel="stylesheet" href="/comp6441-project/style.css" />
+  <link rel="stylesheet" href="../../comp6441-project/style.css" />
    
   <title>(=✪ᆽ✪=) darrens site | 08. software and data integrity failures</title>
 </head>
 <body
     class="bg-[url('/images/stars.gif')] max-w-[100vw] overflow-x-hidden font-mono text-xs text-yellow-50"
   ><header>
-  <a href="/">
+  <a href="../../">
     <figure
       id="header"
       class="max-w-4xl mx-4 mt-16 bg-titlebar lg:m-auto lg:mt-16"
@@ -26,15 +26,15 @@
     </li>
      
     <li>
-      <a href="/comp6441-project/owasp-top10-list/">~/owasp-top10-list</a>
+      <a href="../../comp6441-project/owasp-top10-list/">~/owasp-top10-list</a>
     </li>
      
     <li>
-      <a href="/comp6441-project/about-me/">~/about-me</a>
+      <a href="../../comp6441-project/about-me/">~/about-me</a>
     </li>
      
     <li>
-      <a href="/comp6441-project/references/">~/references</a>
+      <a href="../../comp6441-project/references/">~/references</a>
     </li>
     
   </ul>
@@ -87,16 +87,16 @@
 <p>in 2020, hackers used a third-party provider that had access to the solarwind&rsquo;s orion platform to insert malicious code into their new batch of updates. without the verification of this update, the code led to thousands of data, networks and systems to be compromised. it allowed attackers to access solarwind’s customer information technology systems where they could install even more malware to spy on other companies</p>
 <h2 id="example-attack">example attack</h2>
 <p>once logged in as a regular user below, we can open up the developer window and view the json web token (jwt) which is used to authenticate the user.</p>
-<img src="/examples/owasp8-1.gif" alt="owasp8-1_example.gif"/>
+<img src="../../examples/owasp8-1.gif" alt="owasp8-1_example.gif"/>
 <p>the jwt are in the &ldquo;header.payload.signature&rdquo; format and is encoded as base64. we can decode this by using dedicated base64 decoder websites. by ignoring the signature part, the jwt is decoded as</p>
 <p>{&ldquo;typ&rdquo;:&ldquo;JWT&rdquo;,&ldquo;alg&rdquo;:&ldquo;HS256&rdquo;}.{&ldquo;username&rdquo;:&ldquo;guest&rdquo;,&ldquo;exp&rdquo;:1730361269}.</p>
 <p>we can then alter it by changing &ldquo;HS256&rdquo; which is the signing algorithm for the signature to &ldquo;None&rdquo; and changing &ldquo;guest&rdquo; to &ldquo;admin&rdquo;. as &ldquo;HS256&rdquo; is removed, the signature will not be checked and can be dropped (fullstop is still kept). the changes can be seen below</p>
 <p>{&ldquo;typ&rdquo;:&ldquo;JWT&rdquo;,&ldquo;alg&rdquo;:&ldquo;none&rdquo;}.{&ldquo;username&rdquo;:&ldquo;admin&rdquo;,&ldquo;exp&rdquo;:1730361269}.</p>
 <p>we then encode this altered jwt and replace our current jwt session and refresh the site to see our new permissions</p>
-<img src="/examples/owasp8-2.gif" alt="owasp8-2_example.gif"/>
+<img src="../../examples/owasp8-2.gif" alt="owasp8-2_example.gif"/>
 
   <p class="pt-4">
-    <a href="/"> >> home</a>
+    <a href="../../"> >> home</a>
   </p>
 </main>
 
