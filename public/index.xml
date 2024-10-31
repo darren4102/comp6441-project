@@ -6,8 +6,57 @@
     <description>Recent content on (=✪ᆽ✪=) darrens site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 17 Oct 2024 00:27:48 +1100</lastBuildDate>
+    <lastBuildDate>Thu, 31 Oct 2024 21:06:45 +1100</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>10. server-side request forgery</title>
+      <link>http://localhost:1313/owasp-top10-list/server-side-request-forgery/</link>
+      <pubDate>Thu, 31 Oct 2024 21:06:45 +1100</pubDate>
+      <guid>http://localhost:1313/owasp-top10-list/server-side-request-forgery/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>09. security logging and monitoring failures</title>
+      <link>http://localhost:1313/owasp-top10-list/security-logging-and-monitoring-failures/</link>
+      <pubDate>Thu, 31 Oct 2024 21:06:33 +1100</pubDate>
+      <guid>http://localhost:1313/owasp-top10-list/security-logging-and-monitoring-failures/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>08. software and data integrity failures</title>
+      <link>http://localhost:1313/owasp-top10-list/software-and-data-integrity-failures/</link>
+      <pubDate>Thu, 31 Oct 2024 21:06:20 +1100</pubDate>
+      <guid>http://localhost:1313/owasp-top10-list/software-and-data-integrity-failures/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>07. identification and authentication failures</title>
+      <link>http://localhost:1313/owasp-top10-list/identification-and-authentication-failures/</link>
+      <pubDate>Thu, 31 Oct 2024 21:06:04 +1100</pubDate>
+      <guid>http://localhost:1313/owasp-top10-list/identification-and-authentication-failures/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>06. vulnerable and outdated components</title>
+      <link>http://localhost:1313/owasp-top10-list/vulnerable-and-outdated-components/</link>
+      <pubDate>Thu, 31 Oct 2024 21:05:41 +1100</pubDate>
+      <guid>http://localhost:1313/owasp-top10-list/vulnerable-and-outdated-components/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>05. security misconfiguration</title>
+      <link>http://localhost:1313/owasp-top10-list/security-misconfiguration/</link>
+      <pubDate>Thu, 31 Oct 2024 21:05:24 +1100</pubDate>
+      <guid>http://localhost:1313/owasp-top10-list/security-misconfiguration/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>04. insecure design</title>
+      <link>http://localhost:1313/owasp-top10-list/insecure-design/</link>
+      <pubDate>Thu, 31 Oct 2024 21:05:11 +1100</pubDate>
+      <guid>http://localhost:1313/owasp-top10-list/insecure-design/</guid>
+      <description></description>
+    </item>
     <item>
       <title>03. injection</title>
       <link>http://localhost:1313/owasp-top10-list/injection/</link>
