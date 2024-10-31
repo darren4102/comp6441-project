@@ -33,3 +33,7 @@ to prevent injection, it is essential that any data inputted by the user is sepa
 in 2021 it was found that woocommerce, who are popular for offering the wordpress cms plugin that helps manage websites, was vulnerable to sql injections. it allowed unauthorised attackers to access the database of those websites involved. this unpatched flaw exposed the data of 5 million websites to theft
 
 ## example attack
+
+the application below simply calls the cowsay system command to perform its function. this however makes it vulnerable to inline commands where they are executed first. the below performs "perl /usr/bin/cowasy -f default $(commmand)", where 'command' is executed first and its output is printed with the cowsay command. this allows attackers access to the system files
+
+<img src="/examples/owasp3.gif" alt="owasp3_example.gif"/>

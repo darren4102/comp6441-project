@@ -38,3 +38,11 @@ it is important to establish an ongoing plan that involves monitoring and applyi
 equifax, a company that reports consumer credit experienced a data breach in 2017 due to the use of the apache struts development framework for java applications. the apache struts framework which was a popular open-source framework at the time was vulnerable to remote code execution (rce) which gave attackers access to the system. attackers were able to hide malicious code within their http requests to the server for such an attack
 
 ## example attack
+
+below is an online book store site that will be attacked
+
+<img src="/examples/owasp6-web.png" alt="owasp6-web_example.png"/>
+
+websites such as "exploit database" provide scripts that exploit common and well-known vulnerabilities of a web application. in the below, the unauthenticated remote code execution script for online book stores will be downloaded
+
+<img src="/examples/owasp6-db.png" alt="owasp6-db_example.png"/>

@@ -37,3 +37,7 @@ security misconfiguration refers to when security frameworks and components are 
 citrix, which provides virtual apps for users, was targeted for an attack in 2019 where legacy protocols it used were exploited. the legacy protocols imap and pop which were used made it difficult for system administrators to establish and activate mfa for all users. this made their system vulnerable to brute force attacks
 
 ## example attack
+
+here the developers forgot to remove the debug console feature from their web application. this could be access by adding "/console" at the end of the url. the failure to remove this feature allows attackers to execute commands
+
+<img src="/examples/owasp5.gif" alt="owasp5_example.gif"/>

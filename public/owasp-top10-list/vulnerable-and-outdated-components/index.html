@@ -40,7 +40,7 @@
 <main
   class="w-full h-full min-h-36 bg-neutral-800/50 p-4 overflow-x-auto markdown text-yellow-50"
 >
-<h1 class="text-xl font-black">06. vulnerable and outdated components</h1>
+  <h1 class="text-xl font-black">06. vulnerable and outdated components</h1>
   <h2 id="what-is-it">what is it?</h2>
 <p>vulnerable and outdated components are just what they say they are, they are components that are no longer supported or not updated to the latest version and as a result have known security flaws. as these flaws are well known, it makes it very easy for attackers to exploit the system. some common components that are susceptible to this are libraries, frameworks, operating systems and applications</p>
 <h2 id="how-it-occurs">how it occurs</h2>
@@ -81,6 +81,10 @@ using unsupported or outdated software: software that is outdated or no longer s
 <h2 id="real-life-example">real-life example</h2>
 <p>equifax, a company that reports consumer credit experienced a data breach in 2017 due to the use of the apache struts development framework for java applications. the apache struts framework which was a popular open-source framework at the time was vulnerable to remote code execution (rce) which gave attackers access to the system. attackers were able to hide malicious code within their http requests to the server for such an attack</p>
 <h2 id="example-attack">example attack</h2>
+<p>below is an online book store site that will be attacked</p>
+<img src="/examples/owasp6-web.png" alt="owasp6-web_example.png"/>
+<p>websites such as &ldquo;exploit database&rdquo; provide scripts that exploit common and well-known vulnerabilities of a web application. in the below, the unauthenticated remote code execution script for online book stores will be downloaded</p>
+<img src="/examples/owasp6-db.png" alt="owasp6-db_example.png"/>
 
   <p class="pt-4">
     <a href="/"> >> home</a>

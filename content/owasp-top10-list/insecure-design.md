@@ -35,3 +35,7 @@ for example, a login page may be written perfectly, however, if it was designed 
 in 2018 ticketmaster experienced a data breach that led to the unauthorised access to customer data. it was caused by their poor design of third-party customer support provider inbenta technologies. rather than working with security professionals to embed a secure support system within their website, a third-party one was used which was vulnerable
 
 ## example attack
+
+the insecure design here involves the use of easily guessable security questions. there are also no limits to the number of attempts making it also vulnerable to brute force attacks
+
+<img src="/examples/owasp4.gif" alt="owasp4_example.gif"/>
