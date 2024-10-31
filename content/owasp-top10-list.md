@@ -1,7 +1,7 @@
 +++
 title = 'owasp top 10 list'
 date = 2024-10-08T21:05:22+11:00
-draft = true
+draft = false
 +++
 
 below are the top 10 most common vulnerabilities online according to owasp as of 2021!
