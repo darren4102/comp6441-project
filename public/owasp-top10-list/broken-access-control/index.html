@@ -32,10 +32,6 @@
     <li>
       <a href="/about-me/">~/about-me</a>
     </li>
-     
-    <li>
-      <a href="/test/">~/test</a>
-    </li>
     
   </ul>
 </nav>
@@ -44,7 +40,7 @@
 <main
   class="w-full h-full min-h-36 bg-neutral-800/50 p-4 overflow-x-auto markdown text-yellow-50"
 >
-<h1 class="text-xl font-black">01. broken access control</h1>
+  <h1 class="text-xl font-black">01. broken access control</h1>
   <h2 id="what-is-it">what is it?</h2>
 <p>before we talk about what <strong><em>“broken”</em></strong> access control is, we need to understand what access control is itself. access control is the restrictions put upon a user that determines what actions they can do and resources they can access</p>
 <p>for web applications, action control involves:</p>
@@ -86,7 +82,7 @@
 <li>denying access to private pages of a website by default to prevent elevation of privileges</li>
 </ul>
 <h2 id="real-life-example">real-life example</h2>
-<p>in 2018 cambridge analytica, a consulting firm gained unauthorised access to the personal data of 87 million facebook users. under the guise of academic research, they gained access to facebook’s api which allowed the access to user data for those who installed their “this is your digital life” app. however, facebook&rsquo;s api had a broken access control vulnerability that enabled third-party developers to also access the data of user’s friends as well. following the breach, facebook was fined billion usd by the u.s. federal trade commission for the violation of user privacy</p>
+<p>in 2018 cambridge analytica, a consulting firm gained unauthorised access to the personal data of 87 million facebook users. under the guise of academic research, they gained access to facebook’s api which allowed the access to user data for those who installed their “this is your digital life” app. however, facebook&rsquo;s api had a broken access control vulnerability that enabled third-party developers to also access the data of user’s friends as well. following the breach, facebook was fined billion usd by the u.s. federal trade commission for the violation of user privacy.</p>
 <h2 id="example-attack">example attack</h2>
 <p>below is an attack exploiting &lsquo;idor&rsquo;. the attacker is able to change the id in the url to access someone else&rsquo;s account</p>
 <img src="/examples/owasp1.gif" alt="owasp1_example.gif"/>

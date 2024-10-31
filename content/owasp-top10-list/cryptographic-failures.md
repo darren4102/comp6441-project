@@ -35,3 +35,15 @@ there are lots of different reasons why cryptographic failures occur. Below are 
 in 2013, yahoo was data breached which led to the data theft of all 3 billion yahoo users. following investigation, it was found that yahoo was using outdated encryption that was easy to crack. this included the use of the insecure md5 hashing algorithm. the breach led to a $117.5 million class-action settlement and a $35 million fine from the us securities and exchange commission.
 
 ## example attack
+
+once an attacker has gained access to a database (sqlite webapp.db file in this case) they will be met with hashed data. for this example the password for the admin was hashed
+
+<img src="/examples/owasp2-1.gif" alt="owasp2-1_example.gif"/>
+
+once a hash is obtained, hash identifying tools (nth used below) could be used to easily identify hashing algorithms that are vulnerable. in the example below, it was quickly found that the hash used md5, whose function is considered severely compromised
+
+<img src="/examples/owasp2-2.gif" alt="owasp2-2_example.gif"/>
+
+by knowing the hashing algorithm for a hash, they could be easily cracked with tools such as hashcat. the below shows hashcat being used on the admin password hash where "-m 0" refers to the md5 algorithm. this found the password to be "qwertyuiop"
+
+<img src="/examples/owasp2-3.gif" alt="owasp2-3_example.gif"/>

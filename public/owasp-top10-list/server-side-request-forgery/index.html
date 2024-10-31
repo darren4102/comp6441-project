@@ -32,10 +32,6 @@
     <li>
       <a href="/about-me/">~/about-me</a>
     </li>
-     
-    <li>
-      <a href="/test/">~/test</a>
-    </li>
     
   </ul>
 </nav>
@@ -44,7 +40,7 @@
 <main
   class="w-full h-full min-h-36 bg-neutral-800/50 p-4 overflow-x-auto markdown text-yellow-50"
 >
-<h1 class="text-xl font-black">10. server-side request forgery</h1>
+  <h1 class="text-xl font-black">10. server-side request forgery</h1>
   <h2 id="what-is-it">what is it?</h2>
 <p>server-side request forgery (ssrf) is when attackers trick a server into making a request on their behalf. this allows attackers to control the requests a server makes and as a result can lead to the application sending sensitive data to unexpected locations such as the attacker’s own server. this is common with applications that use an external api and do not verify whether they are really making requests to the api’s server. as modern applications tend to have lots of features and rely on such apis, ssrf is becoming a more common scenario</p>
 <h2 id="how-it-occurs">how it occurs</h2>

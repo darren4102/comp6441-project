@@ -47,7 +47,7 @@ other ways to prevent include:
 
 ## real-life example
 
-in 2018 cambridge analytica, a consulting firm gained unauthorised access to the personal data of 87 million facebook users. under the guise of academic research, they gained access to facebook’s api which allowed the access to user data for those who installed their “this is your digital life” app. however, facebook's api had a broken access control vulnerability that enabled third-party developers to also access the data of user’s friends as well. following the breach, facebook was fined billion usd by the u.s. federal trade commission for the violation of user privacy
+in 2018 cambridge analytica, a consulting firm gained unauthorised access to the personal data of 87 million facebook users. under the guise of academic research, they gained access to facebook’s api which allowed the access to user data for those who installed their “this is your digital life” app. however, facebook's api had a broken access control vulnerability that enabled third-party developers to also access the data of user’s friends as well. following the breach, facebook was fined billion usd by the u.s. federal trade commission for the violation of user privacy.
 
 ## example attack
 
