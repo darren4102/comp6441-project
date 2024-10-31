@@ -45,7 +45,7 @@ other ways to prevent include:
 - limiting the the number of api requests to protect against attackers or bots
 - denying access to private pages of a website by default to prevent elevation of privileges
 
-## real-life example
+## real-life case
 
 in 2018 cambridge analytica, a consulting firm gained unauthorised access to the personal data of 87 million facebook users. under the guise of academic research, they gained access to facebook’s api which allowed the access to user data for those who installed their “this is your digital life” app. however, facebook's api had a broken access control vulnerability that enabled third-party developers to also access the data of user’s friends as well. following the breach, facebook was fined billion usd by the u.s. federal trade commission for the violation of user privacy.
 

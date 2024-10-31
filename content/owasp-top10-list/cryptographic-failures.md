@@ -30,7 +30,7 @@ there are lots of different reasons why cryptographic failures occur. Below are 
 - use cryptographically secure random number generators where necessary to avoid predictability
 - regularly testing and auditing the security configurations to ensure its effectiveness
 
-## real-life example
+## real-life case
 
 in 2013, yahoo was data breached which led to the data theft of all 3 billion yahoo users. following investigation, it was found that yahoo was using outdated encryption that was easy to crack. this included the use of the insecure md5 hashing algorithm. the breach led to a $117.5 million class-action settlement and a $35 million fine from the us securities and exchange commission.
 

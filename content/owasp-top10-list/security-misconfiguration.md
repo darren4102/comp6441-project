@@ -32,7 +32,7 @@ security misconfiguration refers to when security frameworks and components are 
 
 - **_segmenting different parts of the application:_** by isolating different components of an application into their own independent section, it limits what an attacker has access to if they breach one area. common techniques such as network segmentation, containerisation and access control lists (acl) are generally used
 
-## real-life example
+## real-life case
 
 citrix, which provides virtual apps for users, was targeted for an attack in 2019 where legacy protocols it used were exploited. the legacy protocols imap and pop which were used made it difficult for system administrators to establish and activate mfa for all users. this made their system vulnerable to brute force attacks
 

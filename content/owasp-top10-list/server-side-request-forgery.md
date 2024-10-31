@@ -28,7 +28,7 @@ server-side request forgery (ssrf) is when attackers trick a server into making 
 
 - **_disabling http redirections:_** when a request is made to an external url, a response could be received that redirects the server to another destination. attackers can exploit redirects by creating urls that can initially point to a safe destination but then redirect to a malicious server. disabling http redirects blocks attackers from using this technique
 
-## real-life example
+## real-life case
 
 capital one, an us bank experienced a data breach in 2019 due to their ssrf vulnerability which attackers exploited to gain access to sensitive data. their web application firewall which was hosted on amazon web services (aws) was vulnerable to ssrf which allowed attackers to trick it into making http requests to its internal services. this allowed attackers to access aws credentials and subsequently access stored customer data
 

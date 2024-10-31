@@ -6,8 +6,15 @@
     <description>Recent content on (=✪ᆽ✪=) darrens site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 31 Oct 2024 21:06:45 +1100</lastBuildDate>
+    <lastBuildDate>Fri, 01 Nov 2024 05:58:06 +1100</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>references</title>
+      <link>http://localhost:1313/references/</link>
+      <pubDate>Fri, 01 Nov 2024 05:58:06 +1100</pubDate>
+      <guid>http://localhost:1313/references/</guid>
+      <description>&lt;p&gt;note: all attack examples were screen recordings of tryhackme&amp;rsquo;s owasp top 10 lesson.&lt;/p&gt;&#xA;&lt;p&gt;additional references for real-life cases below&lt;/p&gt;</description>
+    </item>
     <item>
       <title>10. server-side request forgery</title>
       <link>http://localhost:1313/owasp-top10-list/server-side-request-forgery/</link>

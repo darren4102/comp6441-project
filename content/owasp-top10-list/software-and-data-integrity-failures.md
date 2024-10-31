@@ -32,7 +32,7 @@ integrity in cyber security refers to ensuring that any data within a system has
 
 - **_protecting serialised data:_** ensure serialised data is signed, encrypted or has integrity checks in place before they are sent to untrusted clients. this allows for any modifications or unauthorised retransmission of the serialised data to be detected
 
-## real-life example
+## real-life case
 
 in 2020, hackers used a third-party provider that had access to the solarwind's orion platform to insert malicious code into their new batch of updates. without the verification of this update, the code led to thousands of data, networks and systems to be compromised. it allowed attackers to access solarwind’s customer information technology systems where they could install even more malware to spy on other companies
 

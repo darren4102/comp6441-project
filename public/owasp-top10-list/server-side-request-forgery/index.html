@@ -32,6 +32,10 @@
     <li>
       <a href="/about-me/">~/about-me</a>
     </li>
+     
+    <li>
+      <a href="/references/">~/references</a>
+    </li>
     
   </ul>
 </nav>
@@ -73,7 +77,7 @@
 <p><strong><em>disabling http redirections:</em></strong> when a request is made to an external url, a response could be received that redirects the server to another destination. attackers can exploit redirects by creating urls that can initially point to a safe destination but then redirect to a malicious server. disabling http redirects blocks attackers from using this technique</p>
 </li>
 </ul>
-<h2 id="real-life-example">real-life example</h2>
+<h2 id="real-life-case">real-life case</h2>
 <p>capital one, an us bank experienced a data breach in 2019 due to their ssrf vulnerability which attackers exploited to gain access to sensitive data. their web application firewall which was hosted on amazon web services (aws) was vulnerable to ssrf which allowed attackers to trick it into making http requests to its internal services. this allowed attackers to access aws credentials and subsequently access stored customer data</p>
 <h2 id="example-attack">example attack</h2>
 <p>copying the link of the below we can see that it has its api server exposed within the url. by changing this to our own device, we can trick the system into forwarding its request to our machine. when pressing enter, the website will start to hang</p>

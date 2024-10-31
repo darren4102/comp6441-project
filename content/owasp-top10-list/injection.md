@@ -28,7 +28,7 @@ to prevent injection, it is essential that any data inputted by the user is sepa
 
 - **_limiting output:_** limiting the amount of data that can be shown at once minimises the damage an attacker can do by preventing large amounts of data from being disclosed. for example, ‘limit’ in sql restricts the number of records that can be returned
 
-## real-life example
+## real-life case
 
 in 2021 it was found that woocommerce, who are popular for offering the wordpress cms plugin that helps manage websites, was vulnerable to sql injections. it allowed unauthorised attackers to access the database of those websites involved. this unpatched flaw exposed the data of 5 million websites to theft
 

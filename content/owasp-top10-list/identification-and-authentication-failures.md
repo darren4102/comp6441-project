@@ -40,7 +40,7 @@ identification and authentication failures are when a system does not properly v
 
 - **_using the same output messages:_** during registration and account recovery, error messages for incorrect login should not provide too much information. information such as whether a username is correct gives attackers hints for guessing an account’s login credentials. error messages should therefore be vague and the same for all cases
 
-## real-life example
+## real-life case
 
 in 2015, ashley madison, an online dating service had a data breach which affected 36 million of its users. some of these users included government and military employees. from the data collected, 11 million passwords that were hashed were cracked due to them being generic. passwords such as “password” or “123456” were commonly used
 

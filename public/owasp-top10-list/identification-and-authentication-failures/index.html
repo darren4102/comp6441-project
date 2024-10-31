@@ -32,6 +32,10 @@
     <li>
       <a href="/about-me/">~/about-me</a>
     </li>
+     
+    <li>
+      <a href="/references/">~/references</a>
+    </li>
     
   </ul>
 </nav>
@@ -91,7 +95,7 @@
 <p><strong><em>using the same output messages:</em></strong> during registration and account recovery, error messages for incorrect login should not provide too much information. information such as whether a username is correct gives attackers hints for guessing an account’s login credentials. error messages should therefore be vague and the same for all cases</p>
 </li>
 </ul>
-<h2 id="real-life-example">real-life example</h2>
+<h2 id="real-life-case">real-life case</h2>
 <p>in 2015, ashley madison, an online dating service had a data breach which affected 36 million of its users. some of these users included government and military employees. from the data collected, 11 million passwords that were hashed were cracked due to them being generic. passwords such as “password” or “123456” were commonly used</p>
 <h2 id="example-attack">example attack</h2>
 <p>the below shows a flaw in the authentication mechanism where the re-registration of an account is allowed. instead of registering with &ldquo;admin&rdquo; which will not work as it already exists, we register with &quot; admin&quot; which contains a space prefix. this comes off as a differnet username when registering but once registered, is treated as the admin account</p>

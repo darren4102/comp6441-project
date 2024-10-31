@@ -30,7 +30,7 @@ for example, a login page may be written perfectly, however, if it was designed 
 
 - **_unit and integration testing:_** writing automated tests that validates critical individual components (unit testing) and the flow of data between different components (integration testing). this ensures all critical parts of an application are resistant to attacks
 
-## real-life example
+## real-life case
 
 in 2018 ticketmaster experienced a data breach that led to the unauthorised access to customer data. it was caused by their poor design of third-party customer support provider inbenta technologies. rather than working with security professionals to embed a secure support system within their website, a third-party one was used which was vulnerable
 

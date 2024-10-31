@@ -35,7 +35,7 @@ logging and monitoring is needed to effectively detect and respond to any active
 
 - **_adopt incident response and recovery plans:_** incident response and recovery plans such as nist provides a guide on how to deal with security incidents which helps minimise the impact of attacks. this includes helping teams to respond more effectively and recover faster
 
-## real-life example
+## real-life case
 
 during the 2013 holiday season, target, the second largest discount store chain in the usa had a data breach which affected 70 million customers. it resulted in the theft of a large amount of customer data which included 40 million credit and debit card accounts. this was due to their failure to log failed login attempts which allowed attackers to attempt various usernames and passwords from the same ip address. this attack led to target losing $200 million and their customer trust
 

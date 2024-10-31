@@ -33,7 +33,7 @@ it is important to establish an ongoing plan that involves monitoring and applyi
 
 - **_checking if current components are still maintained:_** some components or packages stop support and are no longer maintained which makes them vulnerable to security issues. if these components cannot be updated, a virtual patch which blocks potential attacks from reaching the vulnerable component is used. this doesn’t modify the component’s code but rather another layer used above the component
 
-## real-life example
+## real-life case
 
 equifax, a company that reports consumer credit experienced a data breach in 2017 due to the use of the apache struts development framework for java applications. the apache struts framework which was a popular open-source framework at the time was vulnerable to remote code execution (rce) which gave attackers access to the system. attackers were able to hide malicious code within their http requests to the server for such an attack
 
