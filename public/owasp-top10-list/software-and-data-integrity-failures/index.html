@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html><head><script src="/comp6441-project/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=comp6441-project/livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  
+  <link rel="stylesheet" href="/comp6441-project/style.css" />
+   
+  <title>(=✪ᆽ✪=) darrens site | 08. software and data integrity failures</title>
+</head>
+<body
+    class="bg-[url('/comp6441-project/images/stars.gif')] max-w-[100vw] overflow-x-hidden font-mono text-xs text-yellow-50"
+  ><header>
+  <a href="/comp6441-project">
+    <figure
+      id="header"
+      class="max-w-4xl mx-4 mt-16 bg-titlebar lg:m-auto lg:mt-16"
+    ></figure>
+  </a>
+</header>
+<div class="flex flex-col lg:flex-row max-w-4xl mx-4 lg:m-auto relative">
+      <nav class="bg-neutral-800/50 p-4 w-full lg:w-auto lg:max-w-xs max-h-full">
+  <ul>
+     
+    <li>
+      <a href="http://localhost:1313/comp6441-project/">~/home</a>
+    </li>
+     
+    <li>
+      <a href="/comp6441-project/owasp-top10-list/">~/owasp-top10-list</a>
+    </li>
+     
+    <li>
+      <a href="/comp6441-project/about-me/">~/about-me</a>
+    </li>
+     
+    <li>
+      <a href="/comp6441-project/references/">~/references</a>
+    </li>
+    
+  </ul>
+</nav>
+
+
+<main
+  class="w-full h-full min-h-36 bg-neutral-800/50 p-4 overflow-x-auto markdown text-yellow-50"
+>
+  <h1 class="text-xl font-black">08. software and data integrity failures</h1>
+  <h2 id="what-is-it">what is it?</h2>
+<p>integrity in cyber security refers to ensuring that any data within a system has not been tampered with. this is essential as data should remain accurate and correct at all times to ensure the trust of users and compliance with regulations. software and data integrity failures are hence when systems do not properly protect their code and infrastructure against integrity violations such as being modified and deleted</p>
+<h2 id="how-it-occurs">how it occurs</h2>
+<ul>
+<li>
+<p><strong><em>using untrusted sources:</em></strong> when an application relies on components such as plugins, libraries and modules from unknown or untrusted sources, it can introduce vulnerabilities. as we don’t know much about these third-party components, they could contain malicious code or have a weak security infrastructure</p>
+</li>
+<li>
+<p><strong><em>auto-updating without verification:</em></strong> some applications have auto-update enabled but they do not verify whether the updates are legitimate. this provides attackers with the opportunity to add fake updates that can compromise or corrupt the system</p>
+</li>
+<li>
+<p><strong><em>insecure ci/cd pipelines:</em></strong> ci/cd pipelines are an automated process and workflow that assists developers with the development of new versions for software. if this process is not secure, attackers can inject harmful code during the software’s development or deployment</p>
+</li>
+<li>
+<p><strong><em>insecure serialisation:</em></strong> serialisation refers to the process of converting code and data into a more transmittable form to be used later or elsewhere. serialisation can be insecure if the data is serialised into a structure that attackers can see and modify</p>
+</li>
+</ul>
+<h2 id="how-it-is-prevented">how it is prevented</h2>
+<ul>
+<li>
+<p><strong><em>using digital signatures:</em></strong> using a digital signature will verify that any software or data is authentic and hasn’t been altered. when software or data is distributed, it comes with a digital signature. when we receive it, we can verify if that signature matches the official signature to determine whether it has been altered with</p>
+</li>
+<li>
+<p><strong><em>using trusted libraries and dependencies:</em></strong> ensure that any libraries or pre-built code is obtained from known sources. this involves getting them from verified and trusted repositories for better securit</p>
+</li>
+<li>
+<p><strong><em>using security tools:</em></strong> several tools such as owasp dependency check or owasp cyclonedx can be used to scan and flag any known vulnerabilities in the components you are using</p>
+</li>
+<li>
+<p><strong><em>implement code review:</em></strong> having regular reviews for any code or configuration changes helps ensure there are no unauthorised or malicious input that may have been added during the software pipeline</p>
+</li>
+<li>
+<p><strong><em>securing ci/cd pipelines:</em></strong> set up rules on who can access and change ci/cd pipelines and ensuring the segregation of different roles and permissions are implemented. this prevents unauthorised access to different parts of the software during development</p>
+</li>
+<li>
+<p><strong><em>protecting serialised data:</em></strong> ensure serialised data is signed, encrypted or has integrity checks in place before they are sent to untrusted clients. this allows for any modifications or unauthorised retransmission of the serialised data to be detected</p>
+</li>
+</ul>
+<h2 id="real-life-case">real-life case</h2>
+<p>in 2020, hackers used a third-party provider that had access to the solarwind&rsquo;s orion platform to insert malicious code into their new batch of updates. without the verification of this update, the code led to thousands of data, networks and systems to be compromised. it allowed attackers to access solarwind’s customer information technology systems where they could install even more malware to spy on other companies</p>
+<h2 id="example-attack">example attack</h2>
+<p>once logged in as a regular user below, we can open up the developer window and view the json web token (jwt) which is used to authenticate the user.</p>
+<img src="/comp6441-project/examples/owasp8-1.gif" alt="owasp8-1_example.gif"/>
+<p>the jwt are in the &ldquo;header.payload.signature&rdquo; format and is encoded as base64. we can decode this by using dedicated base64 decoder websites. by ignoring the signature part, the jwt is decoded as</p>
+<p>{&ldquo;typ&rdquo;:&ldquo;JWT&rdquo;,&ldquo;alg&rdquo;:&ldquo;HS256&rdquo;}.{&ldquo;username&rdquo;:&ldquo;guest&rdquo;,&ldquo;exp&rdquo;:1730361269}.</p>
+<p>we can then alter it by changing &ldquo;HS256&rdquo; which is the signing algorithm for the signature to &ldquo;None&rdquo; and changing &ldquo;guest&rdquo; to &ldquo;admin&rdquo;. as &ldquo;HS256&rdquo; is removed, the signature will not be checked and can be dropped (fullstop is still kept). the changes can be seen below</p>
+<p>{&ldquo;typ&rdquo;:&ldquo;JWT&rdquo;,&ldquo;alg&rdquo;:&ldquo;none&rdquo;}.{&ldquo;username&rdquo;:&ldquo;admin&rdquo;,&ldquo;exp&rdquo;:1730361269}.</p>
+<p>we then encode this altered jwt and replace our current jwt session and refresh the site to see our new permissions</p>
+<img src="/comp6441-project/examples/owasp8-2.gif" alt="owasp8-2_example.gif"/>
+
+  <p class="pt-4">
+    <a href="/comp6441-project"> >> home</a>
+  </p>
+</main>
+
+
+    </div><footer
+  class="max-w-4xl bg-neutral-900 text-center mx-4 mb-16 lg:m-auto lg:mb-16"
+>
+  (=✪ᆽ✪=) darrens site
+</footer>
+</body>
+</html>
