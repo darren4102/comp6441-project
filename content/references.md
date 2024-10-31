@@ -1,7 +1,6 @@
 +++
 title = 'references'
 date = 2024-11-01T05:58:06+11:00
-draft = false
 +++
 
 **_note:_** all attack examples were screen recordings of tryhackme's owasp top 10 lesson.
