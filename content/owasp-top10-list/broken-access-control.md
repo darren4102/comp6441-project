@@ -52,4 +52,4 @@ in 2018 cambridge analytica, a consulting firm gained unauthorised access to the
 
 below is an attack exploiting 'idor'. the attacker is able to change the id in the url to access someone else's account
 
-<img src="/examples/owasp1.gif" alt="owasp1_example.gif"/>
+<img src="/comp6441-project/examples/owasp1.gif" alt="owasp1_example.gif"/>

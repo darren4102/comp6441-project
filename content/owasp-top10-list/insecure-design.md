@@ -37,4 +37,4 @@ in 2018 ticketmaster experienced a data breach that led to the unauthorised acce
 
 the insecure design here involves the use of easily guessable security questions. there are also no limits to the number of attempts making it also vulnerable to brute force attacks
 
-<img src="/examples/owasp4.gif" alt="owasp4_example.gif"/>
+<img src="/comp6441-project/examples/owasp4.gif" alt="owasp4_example.gif"/>

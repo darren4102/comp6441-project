@@ -39,4 +39,4 @@ citrix, which provides virtual apps for users, was targeted for an attack in 201
 
 here the developers forgot to remove the debug console feature from their web application. this could be access by adding "/console" at the end of the url. the failure to remove this feature allows attackers to execute commands
 
-<img src="/examples/owasp5.gif" alt="owasp5_example.gif"/>
+<img src="/comp6441-project/examples/owasp5.gif" alt="owasp5_example.gif"/>

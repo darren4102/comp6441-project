@@ -42,4 +42,4 @@ during the 2013 holiday season, target, the second largest discount store chain 
 
 below shows some sample logs. we can see that a user from ip address 49.99.13.16 is attempting a brute force attack on this system. they are testing various usernames to gain unauthorised access to the system
 
-<img src="/examples/owasp9.png" alt="owasp9_example.png"/>
+<img src="/comp6441-project/examples/owasp9.png" alt="owasp9_example.png"/>

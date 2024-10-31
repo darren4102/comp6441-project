@@ -39,7 +39,7 @@ in 2020, hackers used a third-party provider that had access to the solarwind's 
 
 once logged in as a regular user below, we can open up the developer window and view the json web token (jwt) which is used to authenticate the user.
 
-<img src="/examples/owasp8-1.gif" alt="owasp8-1_example.gif"/>
+<img src="/comp6441-project/examples/owasp8-1.gif" alt="owasp8-1_example.gif"/>
 
 the jwt are in the "header.payload.signature" format and is encoded as base64. we can decode this by using dedicated base64 decoder websites. by ignoring the signature part, the jwt is decoded as
 
@@ -51,4 +51,4 @@ we can then alter it by changing "HS256" which is the signing algorithm for the 
 
 we then encode this altered jwt and replace our current jwt session and refresh the site to see our new permissions
 
-<img src="/examples/owasp8-2.gif" alt="owasp8-2_example.gif"/>
+<img src="/comp6441-project/examples/owasp8-2.gif" alt="owasp8-2_example.gif"/>

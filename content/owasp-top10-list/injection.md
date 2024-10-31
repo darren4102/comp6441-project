@@ -35,4 +35,4 @@ in 2021 it was found that woocommerce, who are popular for offering the wordpres
 
 the application below simply calls the cowsay system command to perform its function. this however makes it vulnerable to inline commands where they are executed first. the below performs "perl /usr/bin/cowasy -f default $(commmand)", where 'command' is executed first and its output is printed with the cowsay command. this allows attackers access to the system files
 
-<img src="/examples/owasp3.gif" alt="owasp3_example.gif"/>
+<img src="/comp6441-project/examples/owasp3.gif" alt="owasp3_example.gif"/>

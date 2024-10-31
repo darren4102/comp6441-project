@@ -40,8 +40,8 @@ equifax, a company that reports consumer credit experienced a data breach in 201
 
 below is an online book store site that will be attacked
 
-<img src="/examples/owasp6-web.png" alt="owasp6-web_example.png"/>
+<img src="/comp6441-project/examples/owasp6-web.png" alt="owasp6-web_example.png"/>
 
 websites such as "exploit database" provide scripts that exploit common and well-known vulnerabilities of a web application. in the below, the unauthenticated remote code execution script for online book stores will be downloaded
 
-<img src="/examples/owasp6-db.png" alt="owasp6-db_example.png"/>
+<img src="/comp6441-project/examples/owasp6-db.png" alt="owasp6-db_example.png"/>

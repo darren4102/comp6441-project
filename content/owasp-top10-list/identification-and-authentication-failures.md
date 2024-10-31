@@ -47,4 +47,4 @@ in 2015, ashley madison, an online dating service had a data breach which affect
 
 the below shows a flaw in the authentication mechanism where the re-registration of an account is allowed. instead of registering with "admin" which will not work as it already exists, we register with " admin" which contains a space prefix. this comes off as a differnet username when registering but once registered, is treated as the admin account
 
-<img src="/examples/owasp7.gif" alt="owasp7_example.gif"/>
+<img src="/comp6441-project/examples/owasp7.gif" alt="owasp7_example.gif"/>

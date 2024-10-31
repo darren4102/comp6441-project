@@ -35,12 +35,12 @@ capital one, an us bank experienced a data breach in 2019 due to their ssrf vuln
 
 copying the link of the below we can see that it has its api server exposed within the url. by changing this to our own device, we can trick the system into forwarding its request to our machine. when pressing enter, the website will start to hang
 
-<img src="/examples/owasp10.gif" alt="owasp10_example.gif"/>
+<img src="/comp6441-project/examples/owasp10.gif" alt="owasp10_example.gif"/>
 
 netcat as shwon by the nc command below can be used to to retrieve requests. this is set up prior to changing the url
 
-<img src="/examples/owasp10-1.png" alt="owasp10-1_example.png"/>
+<img src="/comp6441-project/examples/owasp10-1.png" alt="owasp10-1_example.png"/>
 
 while the website is hanging after we changed the destination address to our own machine, netcat catches the request allowing us to view sensitive information that was meant for the api server. in this case we can see the api key
 
-<img src="/examples/owasp10-2.png" alt="owasp10-2_example.png"/>
+<img src="/comp6441-project/examples/owasp10-2.png" alt="owasp10-2_example.png"/>
