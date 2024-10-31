@@ -3,7 +3,9 @@ module.exports = {
   content: ["content/**/*.md", "layouts/**/*.html", "../../content/**/*.md"],
   theme: {
     extend: {
-      backgroundImage: { titlebar: "url(/images/titlebar.png)" },
+      backgroundImage: {
+        titlebar: "url(/comp6441-project/images/titlebar.png)",
+      },
       colors: { pastel_red: "#ff6961" },
     },
   },
